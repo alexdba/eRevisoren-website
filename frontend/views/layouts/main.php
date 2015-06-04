@@ -113,6 +113,7 @@ $socialMenuItems = [
     <?= $this->render("../../config/google-analytics-tracking"); ?>
   </head>
   <body>
+    <div style="display:none;"><?= $this->render("../../config/google-remarketing"); ?></div>
     <?php $this->beginBody() ?>
     <?= $this->render("../site/modal-signup"); ?>
     <header id="home" class="header<?= (isset($this->params["attention_row"]) ? " with-attention-row" : ""); ?>">
