@@ -34,11 +34,7 @@ Modal::begin([
                           ["alt" => "Bookkeeping - Sign Up.", "class" => "img-responsive"]);
                     ?>
                     <br/>
-                    Sign Up for a 
-                    <br/>
-                    Free Trial
-                    <br/>
-                    (no credit card needed)
+                    <?= Yii::t('app','Sign Up for a Free Trial (no credit card needed)'); ?>
                 </div>
                 <?= 
                     Html::img(
@@ -52,9 +48,7 @@ Modal::begin([
                           ["alt" => "Bookkeeping - Meet Your Bookkeeper.", "class" => "img-responsive"]);
                     ?>
                     <br/>
-                    Meet Your
-                    <br/>
-                    Bookkeeper
+                    <?= Yii::t('app','Meet Your Bookkeeper'); ?>
                 </div>
                 <?= 
                     Html::img(
@@ -68,26 +62,23 @@ Modal::begin([
                           ["alt" => "Bookkeeping - Receive a Free Income Statement.", "class" => "img-responsive"]);
                     ?>
                     <br/>
-                    Receive a Free 
-                    <br/>
-                    Income Statement
+                    <?= Yii::t('app','Receive a Free Income Statement'); ?>
                 </div>
               </div>  
                 <div class="form-group">
 
-                	<div class="col-lg-12"><?= $form->field($model, 'name')->label(false)->textInput(array('placeholder' => 'NAME*')) ?></div>
-                    <div class="col-lg-12"><?= $form->field($model, 'email')->label(false)->textInput(array('placeholder' => 'EMAIL*')) ?></div>
+                	<div class="col-lg-12"><?= $form->field($model, 'name')->label(false)->textInput(array('placeholder' => Yii::t('app', 'NAME*'))) ?></div>
+                    <div class="col-lg-12"><?= $form->field($model, 'email')->label(false)->textInput(array('placeholder' => Yii::t('app', 'EMAIL*'))) ?></div>
 
-                    <div class="col-lg-12"><?= $form->field($model, 'contact_me')->checkbox() ?></div>
                     <div id="signup-call_detail">
-                        <div class="col-lg-12"><?= $form->field($model, 'phone')->label(false)->textInput(array('placeholder' => 'PHONE NO.')) ?></div>
-                        <div class="col-lg-12"><?= $form->field($model, 'contact_time')->label(false)->textInput(array('placeholder' => 'BEST TIME TO CONTACT (OPTIONAL)')) ?></div>
+                        <div class="col-lg-12"><?= $form->field($model, 'phone')->label(false)->textInput(array('placeholder' => Yii::t('app', 'PHONE NO. (OPTIONAL)'))) ?></div>
+                        <div class="col-lg-12"><?= $form->field($model, 'contact_time')->label(false)->textInput(array('placeholder' => Yii::t('app', 'BEST TIME TO CONTACT (OPTIONAL)'))) ?></div>
                     </div>
                     
                 	<br class="clear"/> 
                 	<div id="notice"></div>
     	
-                    <div class="col-lg-12 text-right"><?= Html::submitButton('Sign Up', ['class' => 'btn btn-primary btn-modal-signup', 'name' => 'signup-button']) ?></div>
+                    <div class="col-lg-12 text-right"><?= Html::submitButton(Yii::t('app','Sign Up'), ['class' => 'btn btn-primary btn-modal-signup', 'name' => 'signup-button']) ?></div>
                     <br/><br/>
                 </div>
             <?php ActiveForm::end(); ?>

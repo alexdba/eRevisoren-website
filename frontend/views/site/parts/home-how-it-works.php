@@ -26,10 +26,9 @@ use yii\helpers\Html;
     <div class='row descriptions'>
       <div class='col-md-4 col-sm-12 one-two-three-cell'>
         <div class="how-it-works-wrapper">
-            <div class="diamond">1</div>
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step1.jpg?v=1.2", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-1.jpg?v=1.2", true), 
                   ["alt" => "Bookkeeping - How it works 1.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
@@ -43,10 +42,9 @@ use yii\helpers\Html;
       </div>
       <div class='col-md-4 col-sm-12 one-two-three-cell'>
         <div class="how-it-works-wrapper">
-            <div class="diamond">2</div>
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step2.jpg?v=1.3", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-2.jpg?v=1.3", true), 
                   ["alt" => "Bookkeeping - How it works 2.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
@@ -59,10 +57,9 @@ use yii\helpers\Html;
       </div>
       <div class='col-md-4 col-sm-12 one-two-three-cell'>
         <div class="how-it-works-wrapper">
-            <div class="diamond">3</div>
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step3.jpg?v=1.2", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-3.jpg?v=1.2", true), 
                   ["alt" => "Bookkeeping - How it works 3.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
@@ -76,3 +73,4 @@ use yii\helpers\Html;
     </div>
   </div> <!-- / END CONTAINER -->
 </section>
+

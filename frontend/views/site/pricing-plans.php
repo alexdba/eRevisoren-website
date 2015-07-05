@@ -3,7 +3,7 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 
-$this->title = 'My Clickbooks - Pricing Plan';
+$this->title = 'My Clickbooks - Which pricing plan is right for you?';
 
 
 $this->registerJsFile(
@@ -15,32 +15,45 @@ $this->registerJsFile(
 <section class="pricing-page privat" id="pricing-page">
   <div class="packages-page packages-container">
       	<div class="section-header">
-        	<h2 class="subpage dark-text">Pricing Plan</h2>
-          <h6>
-            We have chosen to keep our pricing as simple as our concept.<br/>
-
-          </h6>
+        	<h2 class="subpage dark-text">Which pricing plan is right for you?</h2>
         </div>
-        
-
-    <br/>
     <div class="row">
       <div class="table-responsive">
         <table class="prices">
             <thead>
                 <tr>
-                    <td colspan="3">
-                        <strong class="color-black">SELECT BILLING PERIOD:</strong>
-                        &nbsp;
-                        <span class="nowrap">
-                        <button id="button_yearly"
-                                     class="color-black underline">Yearly (Save 17%)</button> 
-                                     | 
-                                     <button id="button_monthly"
-                             class="color-blue">Monthly</button> 
-                        </span>
-                        <br/><br/><br/>
+                    <td colspan="3" class="text-right">
+                        <div class="text-left button_yearly_monthly">
+                            <strong class="color-black">SELECT BILLING PERIOD:</strong>
+                            <br/>
+                            <span class="nowrap">
+                            <button id="button_yearly"
+                                         class="color-black underline">Yearly (Save 17%)</button> 
+                                         | 
+                                         <button id="button_monthly"
+                                 class="color-blue">Monthly</button> 
+                            </span>
+                            <br/><br/><br/>
+                        </div>
+                        
                     </td>
+                </tr>
+                <tr class="package-tooltip-tr">
+                  <th>
+                      <div class="package-tooltip package-tooltip-1">
+                          <?= Yii::t('app','If you’re self-employed without a separate company bank account and only have a few monthly receipts and invoices, but still want to keep your books in order. Then this Package is right for you.')?>
+                      </div>
+                  </th>
+                  <th>
+                      <div class="package-tooltip package-tooltip-2">
+                          <?= Yii::t('app','Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.')?>
+                      </div>
+                  </th>
+                  <th>
+                      <div class="package-tooltip package-tooltip-3">
+                          <?= Yii::t('app','Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.')?>
+                      </div>
+                  </th>
                 </tr>
                 <tr>
                   <th>
@@ -117,11 +130,11 @@ $this->registerJsFile(
                 </tr>
                 <tr>
                     <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page">Start<span class="more_text"> your FREE trial</span></a></td>
+             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
                     <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page">Start<span class="more_text"> your FREE trial</span></a></td>
+             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
                     <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page">Start<span class="more_text"> your FREE trial</span></a></td>
+             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
                 </tr>
           
             </tbody>

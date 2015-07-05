@@ -26,8 +26,9 @@ class AppAsset extends AssetBundle {
     'css/animate.min.css',
     'css/icon-fonts.css',
     'css/pixeden-icons.css',
-    'css/styles.css?v=6.1',
-    'css/responsive.css?v=5.4',
+    'css/jquery.qtip.min.css',
+    'css/styles.css?v=6.3',
+    'css/responsive.css?v=5.5',
     'css/custom.css?v=3.7',
     'css/jquery.bxslider.css',
   ];
@@ -43,6 +44,7 @@ class AppAsset extends AssetBundle {
     'js/jquery.validate.js',
     'js/jquery.placeholder.js',
     'js/additional-methods.js',
+    'js/jquery.qtip.min.js',
     'js/public.js?v=1.5',
   ];
   public $depends = [

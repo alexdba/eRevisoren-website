@@ -11,6 +11,7 @@ use yii\base\Model;
 class CallMeBackForm extends Model
 {
     public $phone;
+    public $name;
 
     /**
      * @inheritdoc
@@ -22,6 +23,8 @@ class CallMeBackForm extends Model
             [['phone'], 'required'],
             // phone has to be a valid number
             ['phone', 'number'],
+            
+            ['name', 'filter', 'filter' => 'trim'],
         ];
     }
 
@@ -31,7 +34,8 @@ class CallMeBackForm extends Model
     public function attributeLabels()
     {
         return [
-            'verifyCode' => 'Verification Code',
+            'phone' => Yii::t('app', 'Enter Number:'),
+            'name' => Yii::t('app', 'Enter Name:')
         ];
     }
 
@@ -43,11 +47,16 @@ class CallMeBackForm extends Model
      */
     public function sendEmail($email)
     {
+        $message = "CALL ME BACK: " . $this->phone;
+        //add name
+        if(!empty($this->name))
+            $message .= ', my name is ' . $this->name;
+            
         return Yii::$app->mailer->compose()
             ->setTo($email)
             ->setFrom($email)
             ->setSubject('Request Call ' . $this->phone . ' from CALL ME BACK form at myclickbooks.com')
-            ->setTextBody("CALL ME BACK: " . $this->phone)
+            ->setTextBody($message)
             ->send();
     }
 }

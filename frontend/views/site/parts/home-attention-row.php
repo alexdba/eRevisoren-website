@@ -50,6 +50,9 @@ use yii\captcha\Captcha;
               <a href="#" class="btn btn-primary btn-front-page">
                 <?= Yii::t('app', 'Start your FREE trial'); ?>
               </a>
+              <a href="#" id="callme-button" class="btn">
+                <?= Yii::t('app', 'Call Me Back'); ?>
+              </a>
           </div>
         </div>
       </div>

@@ -12,7 +12,6 @@ class SignupForm extends Model
 {
     public $name;
     public $email;
-    public $contact_me;
     public $phone;
     public $contact_time;
     /**
@@ -22,14 +21,13 @@ class SignupForm extends Model
     {
         return [
             // name, email are required
-            [['name', 'email'], 'required'],
+            [['name', 'email', 'phone'], 'required'],
             // email has to be a valid email address
             ['email', 'email'],
 
 
 			['name', 'filter', 'filter' => 'trim'],
 			['email', 'filter', 'filter' => 'trim'],
-			['contact_me', 'filter', 'filter' => 'trim'],
 			['phone', 'filter', 'filter' => 'trim'],
 			['contact_time', 'filter', 'filter' => 'trim'],
 
@@ -43,7 +41,6 @@ class SignupForm extends Model
     {
         return [
             'email'      => 'Email',
-            'contact_me' => 'I Want To Be Contacted By Phone!  '
         ];
     }
     
@@ -57,7 +54,6 @@ class SignupForm extends Model
     {
        $this->name         = '';
        $this->email        = '';
-       $this->contact_me   = '';
        $this->phone        = '';
        $this->contact_time = '';
     }
@@ -70,19 +66,22 @@ class SignupForm extends Model
     public function sendEmail($email)
     {
 
-    	$message = 'Signup for myclickbooks.com: ' . "\n" .
+    	$message = 'Signup for ebogholderen.dk: ' . "\n" .
     	            'Name: '      . $this->name    . "\n" .
     				'E-mail: '    . $this->email   . "\n";
-    	//request for contacting
-    	if($this->contact_me)
+    				
+    	//add optional fields
+    	if(!empty($this->phone))
     	    $message .=
-    				'Phone: '   . $this->phone . "\n" .
+    				'Phone: '   . $this->phone . "\n";
+    	if(!empty($this->contact_time))
+    	    $message .=
     				'Best time to contact: '   . $this->contact_time . "\n";
 					
         return Yii::$app->mailer->compose()
             ->setTo($email)
             ->setFrom([$this->email => $this->name])
-            ->setSubject('Request from SignUp form at myclickbooks.com')
+            ->setSubject('Request from SignUp form at ebogholderen.dk')
             ->setTextBody($message)
             ->send();
     }

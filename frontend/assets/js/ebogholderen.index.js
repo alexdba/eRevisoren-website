@@ -18,10 +18,6 @@ $(document).ready(function () {
 	    videoLightbox.initVideoIFrame('First advertising video');
 	});
 	
-	
-	//customer cases
-	customerCases.init();
-
 
     //open requested inline popup/window/modal
     //#video
@@ -36,6 +32,29 @@ $(document).ready(function () {
     //init video for testimonials
     $('.play-video').on('click', function(){
         videoLightbox.initVideoIFrameTestimonials('Testimonials Video');
+    });
+    
+    //tooltips
+    $('.qtip1').qtip({
+        position: {
+            my: 'bottom center',  // Position my top left...
+            at: 'top center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-1' }
+    });
+    $('.qtip2').qtip({
+        position: {
+            my: 'bottom center',  // Position my top left...
+            at: 'top center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-2' }
+    });
+    $('.qtip3').qtip({
+        position: {
+            my: 'bottom center',  // Position my top left...
+            at: 'top center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-3' }
     });
     
 });
@@ -77,120 +96,11 @@ $(document).ready(function () {
 	    });
 	}
 
-    //cases
-    var customerCases = {
-        'current_index': 0,
-        'typeBubbleTextTimer' : undefined,
-        'cases_height' : 0,
-        'init' : function(){
-
-
-            //navigation
-            $('.right_navigate_button.navi').on('click', function(){
-                customerCases.nextCaseText();
-            });
-            $('.left_navigate_button.navi').on('click', function(){
-                customerCases.prevCaseText();
-            });
-        
-            //and reset cases text heights on resize
-            $(window).resize(function () { customerCases.setCasesHeight();  });
-        
-            //set cases text heights
-            customerCases.setCasesHeight();
-            
-            //start auto typing
-            customerCases.startAutoTypeBubbleText();
-        },
-        
-        'nextCaseText' : function (){
-            //do nothing without cases
-            if(typeof cases == 'undefined')
-                return;
-                
-            customerCases.current_index++;
-            if(customerCases.current_index>cases.length-1){
-                customerCases.current_index = 0;
-            }
-            //set height
-            customerCases.setCasesHeight();
-            
-            customerCases.setBubbleText(customerCases.current_index);
-        },
-        'prevCaseText' : function (){
-            customerCases.current_index--;
-            if(customerCases.current_index<0){
-                customerCases.current_index = cases.length-1;
-            }
-            //set height
-            customerCases.setCasesHeight();
-            
-            customerCases.setBubbleText(customerCases.current_index);
-        },
-        'typeBubbleText' : function (remainingText){
-            $('.speech_heading_text').html($('.speech_heading_text').html()+remainingText[0]);
-            remainingText = remainingText.substr(1);
-            if(remainingText.length==0){
-                customerCases.typeBubbleTextTimer = undefined;
-                return;
-            }
-    
-            customerCases.typeBubbleTextTimer = setTimeout(function(){
-                customerCases.typeBubbleText(remainingText);
-            }, 30);
-        },
-        'setBubbleText' : function (index){
-            if(typeof customerCases.typeBubbleTextTimer !== 'undefined'){
-                clearTimeout(customerCases.typeBubbleTextTimer);
-            }
-            //heading text
-            $('.speech_heading_text').html('');
-            //heading position
-            $('.speech_heading_text').css('padding-top',(+customerCases.cases_height-cases[index].height)+'px');
-            //typer
-            $('.typer_name').hide().html(cases[index].name+', '+cases[index].position).fadeIn(1500);
-            //typing text
-            customerCases.typeBubbleText('"' + cases[index].heading + '"');
-        },
-        'startAutoTypeBubbleText' : function (){
-            setTimeout(function(){
-                if(typeof customerCases.typeBubbleTextTimer === 'undefined'){
-                    customerCases.nextCaseText();
-                }
-                customerCases.startAutoTypeBubbleText();
-            },5000);
-        },
-        'setCasesHeight' : function (){
-            if(typeof cases === 'undefined')
-                return;
-            
-            if(typeof customerCases.typeBubbleTextTimer !== 'undefined'){
-                clearTimeout(customerCases.typeBubbleTextTimer);
-            }
-            
-            customerCases.cases_height = 0;
-            $('.speech_heading_text').css('height','inherit');
-            $('.speech_heading_text').parent().css('height','inherit');
-            for(i=0;i<cases.length;i++){
-                $('.speech_heading_text').html('"'+cases[i].heading+'"');
-                case_height = $('.speech_heading_text').height();
-                customerCases.cases_height = Math.max(customerCases.cases_height, case_height);
-                cases[i].height = case_height;
-            }
-            $('.speech_heading_text').html('');
-            $('.speech_heading_text').css('height',customerCases.cases_height+'px');
-            $('.speech_heading_text').parent().css('height',customerCases.cases_height+60+'px');
-            customerCases.setBubbleText(customerCases.current_index);
-        }
-    };
-
-    
-
 
     var videoLightbox = {
         'initVideoIFrameTestimonials' : function (openVideoEvent){
-    	    var videoiFrame = '<div style="width:960px;height:500px;position: absolute;"><iframe width="960" height="500" frameborder="0" allowfullscreen="true" src="https://www.youtube.com/embed/rF0mtKsvQM4?rel=0&autoplay=1&loop=0&wmode=opaque" marginwidth="0" marginheight="0"></iframe></div>';
-    		videoLightbox.lightbox(videoiFrame,960,500,openVideoEvent);
+    	    var videoiFrame = '<div class="wistia" style="width:700px;height:400px;position: absolute;  clip: rect(0px, 700px, 372px, 0px);"><iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/vq3mgwoyub?canonicalUrl=http%3A%2F%2Fpreview.simplifilm.com%2Fmedias%2Fvq3mgwoyub&canonicalTitle=CLICKBOOKS-FULL-PREVIEW-V08%20-%20Simplifilm" allowtransparency="true" frameborder="0" scrolling="no" width="700" height="400"></iframe></div>';
+    		videoLightbox.lightbox(videoiFrame,700,400,openVideoEvent);
         },
         'initVideoIFrame' : function (openVideoEvent){
     	    var videoiFrame = '<div class="wistia" style="width:700px;height:400px;position: absolute;  clip: rect(0px, 700px, 372px, 0px);"><iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/rtv6u5kyh1?canonicalUrl=http%3A%2F%2Fpreview.simplifilm.com%2Fmedias%2Frtv6u5kyh1" allowtransparency="true" frameborder="0" scrolling="no" width="700" height="400"></iframe></div>';

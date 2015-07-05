@@ -12,7 +12,7 @@ $this->registerJsFile(
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=2.3"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=2.4"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 $this->params["attention_row"] = $this->render("parts/home-attention-row", [
@@ -22,13 +22,9 @@ $this->params["attention_row"] = $this->render("parts/home-attention-row", [
 $model = new CustomerCases();
 ?>
 <?= $this->render("parts/home-how-it-works"); ?>
-<?php
-//Reuested close
-//Will be reopen later
-// $this->render("parts/home-cases", [
-//   'model' => $model,
-// ]); 
-
+<?= $this->render("parts/home-cases", [
+      'model' => $model,
+    ]); 
 ?>
 <?= $this->render("parts/home-separator"); ?>
 <?= $this->render("parts/home-features"); ?>

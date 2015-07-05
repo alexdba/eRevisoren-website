@@ -129,11 +129,7 @@ use yii\helpers\Html;
                   ["alt" => "Bookkeeping - Sign Up.", "class" => "img-responsive"]);
             ?>
             <br/>
-            Sign Up for a 
-            <br/>
-            Free Trial
-            <br/>
-            (no credit card needed)
+            <?= Yii::t('app','Sign Up for a Free Trial (no credit card needed)'); ?>
         </div>
         <?= 
             Html::img(
@@ -147,9 +143,7 @@ use yii\helpers\Html;
                   ["alt" => "Bookkeeping - Meet Your Bookkeeper.", "class" => "img-responsive"]);
             ?>
             <br/>
-            Meet Your
-            <br/>
-            Bookkeeper
+            <?= Yii::t('app','Meet Your Bookkeeper'); ?>
         </div>
         <?= 
             Html::img(
@@ -163,13 +157,11 @@ use yii\helpers\Html;
                   ["alt" => "Bookkeeping - Receive a Free Income Statement.", "class" => "img-responsive"]);
             ?>
             <br/>
-            Receive a Free 
-            <br/>
-            Income Statement
+            <?= Yii::t('app','Receive a Free Income Statement'); ?>
         </div>
       </div>    
         <a href="#" class="btn btn-primary start-trial-button btn-front-page">
-          <?= Yii::t('app', 'Start your FREE trial'); ?>
+            <?= Yii::t('app','Start Your Free Trial'); ?>
         </a>
         <br/><br/>
         And get back to running your business

@@ -30,4 +30,41 @@ return [
     'Call to find out how:' => 'Ring og hør hvordan',
     
     'FREE TRIAL' => 'Prøv Gratis',
+    'Start Your Free Trial' => 'Prøv Gratis',
+    
+    'What Our Customers Say' => 'Sådan fungerer vores service',
+    'Why Are ClickBooks Bookkeepers So Cheap?' => 'Hvorfor er eBogholderen så billig?',
+    'ClickBooks Bookkeeper' => 'eBogholderen ',
+    'Paperless' => 'Papirløst',
+    'A traditional bookkeepers spends 73% of his time handling paper. And on average each paper is handled 12.6 times.' => 'En traditionel bogholder bruger 73% af sin tid på bilagshåndtering. Og i snit håndteres hvert bilag 12,6 gange.',
+    'Traditional Bookkeeper' => 'Traditional bogholder',
+    'Lots of Papers' => 'Masser af papir',
+    'We are Paperless that\'s why we are cheap.' => 'Vi arbejder Papirløst, derfor er vi billige.',
+    
+    'Sign Up for a Free Trial (no credit card needed)' => 'Tilmeld dig en gratis Prøvemåned',
+    'Meet Your Bookkeeper' => 'Snak med din personlige kontaktperson',
+    'Receive a Free Income Statement' => 'Få en gratis bogføringsrapport for prøveperioden',
+
+    'If you’re self-employed without a separate company bank account and only have a few monthly receipts and invoices, but still want to keep your books in order. Then this Package is right for you.' => 'Er du en enkeltmandsvirksomhed, uden separat bankkonto for din virksomhed, men stadig ønsker styr på regnskabet, så er dette Pakken for dig.',
+    'Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.' => 'Gennem omhyggelig bankafstemning sørger vi for at du aldrig misser et fradrag på en udgift. Denne pakke betaler for sig selv, samtidigt med at du får ro i sindet. Lad os lave det grove arbejde billigt, og brug kun din dyre revisor til det allermest nødvendige.',
+    'Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.' => 'Hvorfor overhovedet bruge en dyr revisor hvis det ikke er nødvendigt. Hvis vi i forvejen har lavet din bogføring, hvorfor så ikke også lade os klare resten af Skat, Moms og indberetning for kun en lille smule ekstra om måneden.',
+    
+    'A revolutionary service that helps 1000\'s of small businesses every day' => 'En revolutionerende service der hjælper 100vis af små virksomheder hver dag',
+    'AT A GREAT PRICE!' => 'TIL EN FANTASTISK PRIS',
+    'What\'s included?' => 'Hvilken Pakke er den rigtige for mig?',
+    'Compare plans' => 'SAMMENLIGN PAKKER',
+    
+    'NAME*' => 'Navn*',
+    'EMAIL*' => 'Email*',
+    'PHONE NO. (OPTIONAL)' => 'Telefon',
+    'BEST TIME TO CONTACT (OPTIONAL)' => 'Kontakt tidspunkt (Hvis ønsket)',
+    
+    'Sign Up'=>'Send',
+    
+    'Call Me Back' => 'Ring Mig Op',
+    
+    'CALL ME BACK' => 'Ring Mig Op',
+    'OPTIONAL' => 'Hvis ønsket',
+    'Enter Number:' => 'Indtast Nummer:',
+    'Enter Name:' => 'Indtast Navn:',
 ];
