@@ -1,0 +1,54 @@
+.bowerrc text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitkeep text eol=lf
+.htaccess text eol=lf
+LICENSE text eol=lf
+/init text eol=lf
+/yii text eol=lf
+/composer.lock text eol=lf
+/environments/dev/yii text eol=lf
+/environments/prod/yii text eol=lf
+/tests/codeception/bin/yii text eol=lf
+*.as text eol=lf
+*.bat text eol=lf
+*.css text eol=lf
+*.css.bak text eol=lf
+*.csv text eol=lf
+*.dtd text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.ini text eol=lf
+*.ini.sample text eol=lf
+*.htc text eol=lf
+*.htm text eol=lf
+*.html text eol=lf
+*.less text eol=lf
+*.md text eol=lf
+*.mxml text eol=lf
+*.phtml text eol=lf
+*.php text eol=lf
+*.php.sample text eol=lf
+*.po text eol=lf
+*.pot text eol=lf
+*.rtf text eol=lf
+*.scss text eol=lf
+*.sh text eol=lf
+*.sql text eol=lf
+*.svg text eol=lf
+*.txt text eol=lf
+*.wsdl text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+*.xsl text eol=lf
+*.xsd text eol=lf
+*.eot binary
+*.gif binary
+*.gz binary
+*.jpg binary
+*.png binary
+*.swf binary
+*.ttf binary
+*.xap binary
+*.zip binary
