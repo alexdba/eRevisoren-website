@@ -17,13 +17,13 @@ return [
     'Watch The Video' => 'Se Video',
     'Start your FREE trial' => 'Prøv Gratis',
     
-    'How it works?' => 'Sådan virker det',
+    'How it works?' => 'Så let som 1-2-3',
     'As simple as taking a picture' => 'Så let som at tage et billede',
     'Take pictures of your receipts' => 'Tag billeder af dine bilag',
     'Using the ClickBooks app simply take photos of your invoices and expenses' => 'Brug eBogholderens App til at tage billeder af dine bilag',
-    'A dedicated Bookkeeper will do the work' => 'En dedikeret bogholder vil håndtere dine bilag',
+    'A dedicated Bookkeeper will do the work' => 'Din bogholder vil håndtere dine bilag',
     'Your ClickBooks bookkeeper will categorize, review and reconcile your books against your bank statements' => 'eBogholderen’s erfarne bogholdere vil kategorisere og afstemme din bogføring',
-    'Get back to work' => 'Koncentrér dig om dit arbejde',
+    'Get back to work' => 'Du kan koncentrere dig om dit arbejde',
     'Receive monthly statements and tax-ready financials without having to play an integral role in the bookkeeping process' => 'eBogholderen sender dig løbende rapporter over dine indtægter og udgifter, samt momsregnskaber og årsopgørelse',
     
     'ClickBooks can <b>help you</b>' => 'eBogholderen kan <b>hjælpe dig</b>',
@@ -32,7 +32,7 @@ return [
     'FREE TRIAL' => 'Prøv Gratis',
     'Start Your Free Trial' => 'Prøv Gratis',
     
-    'What Our Customers Say' => 'Sådan fungerer vores service',
+    'What Our Customers Say' => 'Sådan virker det',
     'Why Are ClickBooks Bookkeepers So Cheap?' => 'Hvorfor er eBogholderen så billig?',
     'ClickBooks Bookkeeper' => 'eBogholderen ',
     'Paperless' => 'Papirløst',

@@ -60,7 +60,7 @@ $this->registerJsFile(
                     <a href="#" 
                        class="package package-light btn-pricing-page">
                       <h4>
-                        <span id="price_light">35</span>
+                        <span id="price_light">149</span>
                       </h4>
                     </a>
                   </th>
@@ -68,7 +68,7 @@ $this->registerJsFile(
                     <a href="#" 
                        class="package package-standard btn-pricing-page">
                       <h4>
-                        <span id="price_standard">75</span>
+                        <span id="price_standard">395</span>
                       </h4>
                     </a>
                   </th>
@@ -76,7 +76,7 @@ $this->registerJsFile(
                     <a href="#" 
                        class="package package-plus  btn-pricing-page">
                       <h4>
-                        <span id="price_plus">95</span>
+                        <span id="price_plus">595</span>
                       </h4>
                     </a>
                   </th>

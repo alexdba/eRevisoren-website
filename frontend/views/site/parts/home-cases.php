@@ -15,13 +15,13 @@ use yii\helpers\Html;
             <div id="speeches">
               	<div class="section-header">
                 	<h6 class="dark-text" style="font-size:50px;"><?= Yii::t('app','What Our Customers Say'); ?></h6>
-                	<h6 style="color:#0C3B45;">How Real Customers Have Benefitted from ClickBooks</h6>
+                	<h6 style="color:#0C3B45;"><br/></h6>
                 </div>
                 <div class="play-video">
-                    <img src="<?= Url::to("@web/frontend/assets/images/home/video-clients.jpg", true); ?>">
+                    <img src="<?= Url::to("@web/frontend/assets/images/home/video-clients.jpg?v=1.1", true); ?>" width="676">
                 </div>
                 <div class="col-sm-12 text-center pricing_info">
-                    <a href='<?= Url::to(["site/testimonials"]); ?>'>View More Customer Feedback From A Range Of Businesses</a>
+                    <br/>
                 </div>
             </div>
         </div>
