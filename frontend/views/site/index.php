@@ -12,7 +12,7 @@ $this->registerJsFile(
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=2.4"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=2.5"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 $this->params["attention_row"] = $this->render("parts/home-attention-row", [

@@ -132,10 +132,10 @@ $socialMenuItems = [
               <span class="icon-bar"></span>
             </button>
             <a href="<?= Yii::$app->homeUrl; ?>" class="navbar-brand logo">
-              <img src="<?= Url::to("@web/assets/images/logo.jpg?v=1.2"); ?>" alt="ebogholderen.dk">
+              <img src="<?= Url::to("@web/assets/images/logo.png?v=1.3"); ?>" alt="ebogholderen.dk">
             </a>
             <a href="<?= Yii::$app->homeUrl; ?>" class="navbar-brand logo-white">
-              <img src="<?= Url::to("@web/frontend/assets/images/home/Logo-white-clickbooks.png?v=1.0"); ?>" alt="ClickBooks">
+              <img src="<?= Url::to("@web/frontend/assets/images/home/Logo-white-clickbooks.png?v=1.0"); ?>" alt="ebogholderen.dk">
             </a>
           </div>
           <nav class="navbar-collapse bs-navbar-collapse collapse" 
