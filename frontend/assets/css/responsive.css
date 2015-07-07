@@ -1064,6 +1064,12 @@
 
 @media  (min-width: 1400px) {
     .home-attention-row-subcontainer{
+        right: -60px;
+    }
+}
+
+@media  (min-width: 1600px) {
+    .home-attention-row-subcontainer{
         right: -130px;
     }
 }
