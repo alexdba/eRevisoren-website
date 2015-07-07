@@ -103,8 +103,7 @@ $(document).ready(function () {
     		videoLightbox.lightbox(videoiFrame,700,400,openVideoEvent);
         },
         'initVideoIFrame' : function (openVideoEvent){
-    	    var videoiFrame = '<div class="wistia" style="width:700px;height:400px;position: absolute;  clip: rect(0px, 700px, 372px, 0px);"><iframe class="wistia_embed" name="wistia_embed" src="http://fast.wistia.net/embed/iframe/rtv6u5kyh1?canonicalUrl=http%3A%2F%2Fpreview.simplifilm.com%2Fmedias%2Frtv6u5kyh1" allowtransparency="true" frameborder="0" scrolling="no" width="700" height="400"></iframe></div>';
-    		videoLightbox.lightbox(videoiFrame,700,400,openVideoEvent);
+    	    videoLightbox.initVideoIFrameTestimonials(openVideoEvent);
         },
         //lightbox
         // display the lightbox
