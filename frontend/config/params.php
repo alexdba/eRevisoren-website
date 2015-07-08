@@ -1,6 +1,6 @@
 <?php
 return [
     'adminEmail' => 'admin@example.com',
-    'contactEmail' => 'da@ebogholderen.dk',
+    'contactEmail' => 'kontakt@ebogholderen.dk',
     'contactPhone' => '91 11 11 97',
 ];

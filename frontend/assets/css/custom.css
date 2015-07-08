@@ -488,8 +488,9 @@ h2.subheading{
     font-weight:normal;
 }
 
-.document-img{
+.document-img {
   margin-top: 100px;
+  width: 100%;
 }
 .small-phone{
   margin-right:6px;

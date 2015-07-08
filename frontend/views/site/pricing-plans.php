@@ -7,7 +7,7 @@ $this->title = 'My Clickbooks - Which pricing plan is right for you?';
 
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.3"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.4"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 
@@ -15,7 +15,7 @@ $this->registerJsFile(
 <section class="pricing-page privat" id="pricing-page">
   <div class="packages-page packages-container">
       	<div class="section-header">
-        	<h2 class="subpage dark-text">Which pricing plan is right for you?</h2>
+        	<h2 class="subpage dark-text"><?= Yii::t('app','Which pricing plan is right for you?'); ?></h2>
         </div>
     <div class="row">
       <div class="table-responsive">
@@ -24,14 +24,14 @@ $this->registerJsFile(
                 <tr>
                     <td colspan="3" class="text-right">
                         <div class="text-left button_yearly_monthly">
-                            <strong class="color-black">SELECT BILLING PERIOD:</strong>
+                            <strong class="color-black"><?= Yii::t('app','SELECT BILLING PERIOD:'); ?></strong>
                             <br/>
                             <span class="nowrap">
                             <button id="button_yearly"
-                                         class="color-black underline">Yearly (Save 17%)</button> 
+                                         class="color-black underline"><?= Yii::t('app','Yearly (Save 17%)'); ?></button> 
                                          | 
                                          <button id="button_monthly"
-                                 class="color-blue">Monthly</button> 
+                                 class="color-blue"><?= Yii::t('app','Monthly'); ?></button> 
                             </span>
                             <br/><br/><br/>
                         </div>
@@ -84,49 +84,64 @@ $this->registerJsFile(
             </thead>
             <tbody>
                 <tr class="even">
-                    <td class="text">Monthly Bookkeeping*</td>
-                    <td class="text">Monthly Bookkeeping*</td>
-                    <td class="text">Monthly Bookkeeping*</td>
+                    <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
+                    <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
+                    <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
                 </tr>
                 <tr class="odd">
-                    <td class="text">Unlimited accounting support</td>
-                    <td class="text">Unlimited accounting support</td>
-                    <td class="text">Unlimited accounting support</td>
+                    <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
+                    <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
+                    <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
                 </tr>
                 <tr class="even">
-                    <td class="text">Annual Tax Preparation</td>
-                    <td class="text">Annual Tax Preparation</td>
-                    <td class="text">Annual Tax Preparation</td>
+                    <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
+                    <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
+                    <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
                 </tr>
                 <tr class="odd">
-                    <td class="text">Online Archive of Receipts and Invoices</td>
-                    <td class="text">Online Archive of Receipts and Invoices</td>
-                    <td class="text">Online Archive of Receipts and Invoices</td>
+                    <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
+                    <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
+                    <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
                 </tr>
                 <tr class="even">
-                    <td class="text">Monthly reporting</td>
-                    <td class="text">Monthly reporting</td>
-                    <td class="text">Monthly reporting</td>
+                    <td class="text"><?= Yii::t('app','Monthly reporting'); ?></td>
+                    <td class="text"><?= Yii::t('app','Monthly reporting'); ?></td>
+                    <td class="text"><?= Yii::t('app','Monthly reporting'); ?></td>
                 </tr>
                 <tr class="odd">
-                    <td class="text">Free use of our easy-to-use App</td>
-                    <td class="text">Free use of our easy-to-use App</td>
-                    <td class="text">Free use of our easy-to-use App</td>
-                </tr>
-                <tr class="even">
-                    <td></td>
-                    <td class="text">Bank Reconciliation</td>
-                    <td class="text">Bank Reconciliation</td>
-                </tr>
-                <tr class="odd">
-                    <td></td>
-                    <td></td>
-                    <td class="text">Tax Calculation</td>
+                    <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
+                    <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
+                    <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
                 </tr>
                 <tr class="even">
                     <td></td>
+                    <td class="text"><?= Yii::t('app','Bank Reconciliation'); ?></td>
+                    <td class="text"><?= Yii::t('app','Bank Reconciliation'); ?></td>
+                </tr>
+                <tr class="odd">
                     <td></td>
-                    <td class="text">Tax Filing</td>
+                    <td class="text"><?= Yii::t('app','Bank Reconciliation2'); ?></td>
+                    <td class="text"><?= Yii::t('app','Bank Reconciliation2'); ?></td>
+                </tr>
+                <tr class="even">
+                    <td></td>
+                    <td></td>
+                    <td class="text"><?= Yii::t('app','Tax Calculation'); ?></td>
+                </tr>
+                <tr class="odd">
+                    <td></td>
+                    <td></td>
+                    <td class="text"><?= Yii::t('app','Tax Filing'); ?></td>
+                </tr>
+                <tr class="even">
+                    <td></td>
+                    <td></td>
+                    <td class="text"><?= Yii::t('app','Tax Filing2'); ?></td>
+                </tr>
+                <tr class="odd">
+                    <td></td>
+                    <td></td>
+                    <td class="text"><?= Yii::t('app','Tax Filing3'); ?></td>
                 </tr>
                 <tr>
                     <td><a href="#" 
@@ -144,13 +159,16 @@ $this->registerJsFile(
     <br/>
     <br/>
     <div class="row">
-        <h2 class="subheading">Fine Print</h2>
+        <div class="left">
+            <?= Yii::t('app','Pricing plans notes'); ?>
+        </div>
+        <br class="clear"/><br/><br/>
+        <h2 class="subheading"><?= Yii::t('app','Fine Print'); ?></h2>
         <br/>
         <div class="left">
-            *Included in both our packages are up to 500 transactions yearly, which covers the need of almost all self-employed people and small businesses.
+            <?= Yii::t('app','*Included in both our packages are up to 500 transactions yearly, which covers the need of almost all self-employed people and small businesses.'); ?>
             <br/><br/>
-            However should you find yourself in the lucky circumstances that you have more transactions than what is included in your package,
-            we will only charge you a mere 50 cents extra per additional transaction.
+            <?= Yii::t('app','However should you find yourself in the lucky circumstances that you have more transactions than what is included in your package, we will only charge you a mere 50 cents extra per additional transaction.'); ?>
         </div>
     </div>
     <br/>

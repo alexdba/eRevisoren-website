@@ -29,20 +29,20 @@ $(document).ready(function () {
         },
         'selectDefinedPrice' : function(monthly){
             if(monthly){
-                price_light      = {'from':35, 'to':42};
-                price_standard   = {'from':75, 'to':90};
-                price_plus       = {'from':95, 'to':114};
+                price_light      = {'from':149, 'to':175};
+                price_standard   = {'from':399, 'to':465};
+                price_plus       = {'from':599, 'to':699};
                 button_highlight   = '#button_yearly';
                 button_unhighlight = '#button_monthly';
             }else
             {//yearly
-                price_light      = {'from':42 , 'to':35};
-                price_standard   = {'from':90 , 'to':75};
-                price_plus       = {'from':114, 'to':95};
+                price_light      = {'from':175, 'to':149};
+                price_standard   = {'from':465, 'to':399};
+                price_plus       = {'from':699, 'to':599};
                 button_highlight   = '#button_monthly';
                 button_unhighlight = '#button_yearly';
             }
-            
+
             if($('#price_standard').html()==price_standard.to)
                 return;
                 
