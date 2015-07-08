@@ -6,11 +6,11 @@ use yii\helpers\Url;
     <!-- SECTION HEADER -->
     <div class="section-header">
       <!-- SECTION TITLE -->
-      <h2 class="dark-text">Features</h2>
+      <h2 class="dark-text"><?= Yii::t('app','Features'); ?></h2>
 
       <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
       <h6>
-        A revolution for the small-business owner
+        <?= Yii::t('app','A revolution for the small-business owner'); ?>
       </h6>
     </div>
     <!-- / END SECTION HEADER -->
@@ -25,12 +25,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_save-money.png", true); ?>">
           </div>
-          <h5>It Saves Money</h5>
+          <h5><?= Yii::t('app','It Saves Money'); ?></h5>
           <p>
-            ClickBooks gives you great value for your money. Not only do we offer the
-            lowest bookkeeping rates in America. But on top of that our clients find
-            that they are finally able to easily capture all of their receipts and thereby
-            getting their full tax deductions.
+            <?= Yii::t('app','ClickBooks gives you great value for your money. Not only do we offer the lowest bookkeeping rates in America. But on top of that our clients find that they are finally able to easily capture all of their receipts and thereby getting their full tax deductions.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
@@ -40,11 +37,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_bookkeeper.png", true); ?>">
           </div>
-          <h5>Top Notch Experienced Bookkeepers</h5>
+          <h5><?= Yii::t('app','Top Notch Experienced Bookkeepers'); ?></h5>
           <p>
-            At ClickBooks we only use the best bookkeepers. Our bookkeepers are all 
-            certified seasoned professionals carefully selected, tested and trained in
-            using the latest tools and technologies.
+            <?= Yii::t('app','At ClickBooks we only use the best bookkeepers. Our bookkeepers are all certified seasoned professionals carefully selected, tested and trained in using the latest tools and technologies.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
@@ -54,11 +49,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_secure.png", true); ?>">
           </div>
-          <h5>It's highly Secure</h5>
+          <h5><?= Yii::t('app','It\'s highly Secure'); ?></h5>
           <p>
-          	The security and privacy of your data is our highest priority. To ensure
-          	your safety we have invested in the latest state-of-the art technologies
-          	used by large banking and leading financial institutions.
+          	<?= Yii::t('app','The security and privacy of your data is our highest priority. To ensure your safety we have invested in the latest state-of-the art technologies used by large banking and leading financial institutions.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
@@ -72,11 +65,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_save-time.png", true); ?>">
           </div>
-          <h5>It Saves Time</h5>
+          <h5><?= Yii::t('app','It Saves Time'); ?></h5>
           <p>
-            With ClickBooks your time spent organizing your receipt and invoices
-            have just been dramatically reduced. Not only the time you spend on
-            organizing but also the time you spend worrying about it.
+            <?= Yii::t('app','With ClickBooks your time spent organizing your receipt and invoices have just been dramatically reduced. Not only the time you spend on organizing but also the time you spend worrying about it.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
@@ -86,12 +77,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_easy.png", true); ?>">
           </div>
-          <h5>It's Incredibly Easy to Use</h5>
+          <h5><?= Yii::t('app','It\'s Incredibly Easy to Use'); ?></h5>
           <p>
-            You'll never find a service that's easier to use than Clickbooks. Use our simple app
-            to take pictures of your receipts and invoices and just 
-            let us take it from there. You're only 5 minutes away from being fully and finally
-            out of the bookkeeping business.
+            <?= Yii::t('app','You\'ll never find a service that\'s easier to use than Clickbooks. Use our simple app to take pictures of your receipts and invoices and just let us take it from there. You\'re only 5 minutes away from being fully and finally out of the bookkeeping business.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
@@ -101,12 +89,9 @@ use yii\helpers\Url;
           <div class="feature-icon">
             <img src="<?= Url::to("@web/frontend/assets/images/custom-icons/icon_with-you.png", true); ?>">
           </div>
-          <h5>It's Always With You</h5>
+          <h5><?= Yii::t('app','It\'s Always With You'); ?></h5>
           <p>
-            With the ClickBooks App it's like always having your bookkeeper available
-			and by your side. You never have to worry about managing and storing
-			your invoices and receipts. You can always go to the personal Picture
-            Archive online and print them.
+            <?= Yii::t('app','With the ClickBooks App it\'s like always having your bookkeeper available and by your side. You never have to worry about managing and storing your invoices and receipts. You can always go to the personal Picture Archive online and print them.'); ?>
           </p>
         </div>
         <!-- / END FEATURE -->
