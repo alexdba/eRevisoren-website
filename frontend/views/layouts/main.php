@@ -59,14 +59,14 @@ $mainMenuItemsMobileVersion = [
 $companyMenuItems = [
   ['label'       => Yii::t('app', 'Contact Us'), 
    'url'         => Url::to(["site/contact"])],
-  ['label'       => Yii::t('app', 'Careers'), 
-   'url'         => Url::to(["document/careers"])],
-  ['label'       => Yii::t('app', 'Terms and conditions'), 
-   'url'         => Url::to(["document/terms-and-conditions"])],
-  ['label'       => Yii::t('app', 'Cancellation Policy'), 
-   'url'         => Url::to(["document/cancellation-and-return-policies"])],
-  ['label'       => Yii::t('app', 'Privacy Policy'), 
-   'url'         => Url::to(["document/privacy-policy"])],
+//   ['label'       => Yii::t('app', 'Careers'), 
+//   'url'         => Url::to(["document/careers"])],
+//   ['label'       => Yii::t('app', 'Terms and conditions'), 
+//   'url'         => Url::to(["document/terms-and-conditions"])],
+//   ['label'       => Yii::t('app', 'Cancellation Policy'), 
+//   'url'         => Url::to(["document/cancellation-and-return-policies"])],
+//   ['label'       => Yii::t('app', 'Privacy Policy'), 
+//   'url'         => Url::to(["document/privacy-policy"])],
 ];
 
 $serviceMenuItems = [
@@ -180,7 +180,7 @@ $socialMenuItems = [
       <div class="container">
         <div class="row">
           <div class="col-md-4 footer-column">
-            <h4>Company Information</h4>
+            <h4><?= Yii::t('app','Company Information'); ?></h4>
             <?php
               echo Nav::widget([
                 'options' => ['class' => 'footer-menu'],
@@ -189,18 +189,17 @@ $socialMenuItems = [
             ?>
           </div>
           <div class="col-md-3 footer-column">
-            <h4>Service</h4>
+            <!--<h4><?= Yii::t('app','Service'); ?></h4>-->
             <?php
-              echo Nav::widget([
-                'options' => ['class' => 'footer-menu'],
-                'items'   => $serviceMenuItems,
-              ]);
+            //   echo Nav::widget([
+            //     'options' => ['class' => 'footer-menu'],
+            //     'items'   => $serviceMenuItems,
+            //   ]);
             ?>
           </div>
           <div class="col-md-5 footer-column">
-              <h4>Certificates</h4>
-              ClickBooks accountants are certified by the following<br/>
-              national associations of bookkeepers:<br/><br/>
+              <h4><?= Yii::t('app','Certificates'); ?></h4>
+              <?= Yii::t('app','ClickBooks accountants are certified by the following<br/>national associations of bookkeepers:'); ?><br/><br/>
             <?= 
               Html::img(
                 Url::to("@web/assets/images/logo-associations.jpg?v=1.1", true),
@@ -211,7 +210,7 @@ $socialMenuItems = [
       </div>
       <div class="copyright">
         <div class="container">
-          &copy; Copyright <?= date("Y"); ?>, ClickBooks. All Rights Reserved.
+          <?= Yii::t('app','&copy; Copyright {year}, ClickBooks. All Rights Reserved.',['year'=>date("Y")]); ?> 
         </div>
       </div>
     </div>

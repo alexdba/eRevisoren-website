@@ -29,7 +29,7 @@ class AppAsset extends AssetBundle {
     'css/jquery.qtip.min.css',
     'css/styles.css?v=6.4',
     'css/responsive.css?v=5.9',
-    'css/custom.css?v=3.8',
+    'css/custom.css?v=3.9',
     'css/jquery.bxslider.css',
   ];
   public $js = [
