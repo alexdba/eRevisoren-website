@@ -38,6 +38,9 @@ $mainMenuItems = [
   ['label'       => Yii::t('app', 'Call Me Back'), 
    'url'         => "#",
    'linkOptions' => ['class' => 'callmeback-menu-item external'] ],
+  ['label'       => Yii::t('app', 'Login'), 
+   'url'         => "http://www.ebogholderen.dk/Auth.php?action=login",
+   'linkOptions' => ['class' => 'external', 'target' => '_blank'] ],
 ];
 
 $mainMenuItemsMobileVersion = [
@@ -135,7 +138,7 @@ $socialMenuItems = [
               <img src="<?= Url::to("@web/assets/images/logo.png?v=1.3"); ?>" alt="ebogholderen.dk">
             </a>
             <a href="<?= Yii::$app->homeUrl; ?>" class="navbar-brand logo-white">
-              <img src="<?= Url::to("@web/frontend/assets/images/home/Logo-white-clickbooks.png?v=1.0"); ?>" alt="ebogholderen.dk">
+              <img src="<?= Url::to("@web/frontend/assets/images/home/logo-white.png?v=1.0"); ?>" alt="ebogholderen.dk">
             </a>
           </div>
           <nav class="navbar-collapse bs-navbar-collapse collapse" 
