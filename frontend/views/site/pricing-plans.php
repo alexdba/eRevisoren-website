@@ -159,7 +159,7 @@ $this->registerJsFile(
     <br/>
     <br/>
     <div class="row">
-        <div class="left">
+        <div class="left foot-notes">
             <i class="notes"><?= Yii::t('app','Pricing plans notes'); ?></i>
         </div>
         <br class="clear"/><br/><br/>
