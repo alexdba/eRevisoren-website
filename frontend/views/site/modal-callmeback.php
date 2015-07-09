@@ -29,7 +29,7 @@ Modal::begin([
                 <div class="form-group">
                     <br/>
                 	<div class="col-lg-6 col-md-6 col-sm-6">
-                	    <?= $form->field($model, 'phone')->textInput(array('placeholder' => '999 999 9999')) ?>
+                	    <?= $form->field($model, 'phone')->textInput(array('placeholder' => '99 99 99 99')) ?>
                 	</div>
                 	<div class="col-lg-6 col-md-6 col-sm-6">
                 	    <?= $form->field($model, 'name')->textInput(array('placeholder' => Yii::t('app', 'OPTIONAL'))) ?>

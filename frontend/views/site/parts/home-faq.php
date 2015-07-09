@@ -150,7 +150,6 @@ use yii\helpers\Html;
         <a href="#" class="btn btn-primary start-trial-button btn-front-page">
             <?= Yii::t('app','Start Your Free Trial'); ?>
         </a>
-        <br/><br/>
-        And get back to running your business
+
     </div>
 </section>

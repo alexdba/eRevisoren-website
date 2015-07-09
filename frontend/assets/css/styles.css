@@ -1354,6 +1354,8 @@ input:focus {
   font-family: 'Lato';
   font-weight: bold;
   padding-top: 15px;
+  margin-left: 21px;
+  margin-top: 14px;
 }
 .package .dollar-sign{
   font-size: 60px;
@@ -1933,6 +1935,7 @@ TABLE.one-two-three .dash{
 
 .prices tbody .text{
   text-align:center;
+  padding: 10px 25px;
 }
 .prices tbody .even{
   background-color: rgb(246, 246, 246);
@@ -2712,3 +2715,20 @@ div.pricing-start-free-trial{
     font-size: 20px;
 }
 
+.pricing-page h2.subheading{
+    margin-top:15px;
+}
+
+.pricing-page .notes sup{
+    margin-bottom: 1.5em;
+    float: left;
+    display: inline-block;
+    width: 15px;
+}
+
+.pricing-page .notes span{
+  display: block;
+  vertical-align: top;
+  margin-left: 5px;
+  margin-top: -13px;
+}

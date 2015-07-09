@@ -54,7 +54,10 @@
       line-height: 1.7em;
       margin: 0 auto;
     }
-
+    .package h4{
+        margin-left: 0;
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px){

@@ -47,7 +47,7 @@ $this->params["html_head_appendix"] = file_get_contents( dirname(__FILE__) . '/.
       	<div class="section-header">
         	<h2 class="subpage dark-text"><?= Yii::t('app','Contact Us'); ?></h2>
           <h6>
-            No question is too small - We would love to hear from you
+            <?= Yii::t('app','No question is too small - We would love to hear from you'); ?>
           </h6>
         </div>
         <div class="row">
