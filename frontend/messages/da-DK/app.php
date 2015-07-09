@@ -143,4 +143,6 @@ return [
     'contact@myclickbooks.com'=>'kundeservice@ebogholderen.dk',
     
     'No question is too small - We would love to hear from you'=>'Alle spørgsmål er velkomne -  Vi glæder os til at høre fra dig',
+    
+    'Login' => 'Log ind',
 ];

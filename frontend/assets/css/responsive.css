@@ -848,7 +848,8 @@
         background: none;
     }
     .intro h4 {
-        line-height: 0.7em;
+        line-height: 1.5em;
+        margin-top: 20vw;
     }
 
     .prices .price-meta, .prices .price-description{
@@ -1024,9 +1025,10 @@
 
 @media  (min-width: 1200px) {
     .home-attention-row-subcontainer{
-        position: absolute;
-        right: 45px;
-        top: 80px;
+        right: 0;
+        position: relative;
+        text-align: right;
+        margin-top: 90px;
     }
 
     .intro .btn-primary{
@@ -1049,30 +1051,12 @@
     .package-tooltip {
       min-height: 174px;
     }
-    .attention-box{
-        margin-left: 16vw;
-    }
+
 }
 
 
 @media  (min-width: 1300px) {
-    .home-attention-row-subcontainer{
-        top: 7vw;
-        right: 13px;
-    }
     .intro h4 {
         font-size: 38px;
-    }
-}
-
-@media  (min-width: 1450px) {
-    .home-attention-row-subcontainer{
-        right: -60px;
-    }
-}
-
-@media  (min-width: 1680px) {
-    .home-attention-row-subcontainer{
-        right: -130px;
     }
 }
