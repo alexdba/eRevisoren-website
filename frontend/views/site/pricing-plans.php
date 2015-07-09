@@ -160,7 +160,7 @@ $this->registerJsFile(
     <br/>
     <div class="row">
         <div class="left">
-            <?= Yii::t('app','Pricing plans notes'); ?>
+            <i class="notes"><?= Yii::t('app','Pricing plans notes'); ?></i>
         </div>
         <br class="clear"/><br/><br/>
         <h2 class="subheading"><?= Yii::t('app','Fine Print'); ?></h2>
