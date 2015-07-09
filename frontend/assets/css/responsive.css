@@ -60,6 +60,13 @@
     }
 }
 
+@media (min-width: 660px) and (max-width: 1200px){
+    .intro h4.fullscreen-page-heading{
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+    }
+}
+
 @media (min-width: 992px) and (max-width: 1024px){
     #main-nav .navbar-collapse {
       padding-top: 45px;
@@ -82,9 +89,9 @@
     padding-top: 0;
   }
 }
-@media (min-width: 768px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 1000px) {
     #callme-button {
-      margin-right: 330px;
+      margin: 20px auto;
     }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -992,7 +999,7 @@
 
 @media  (min-width: 900px) {
     .intro h4 {
-        font-size: 38px;
+        font-size: 32px;
     }
     .home-attention-row-subcontainer{
         position: absolute;

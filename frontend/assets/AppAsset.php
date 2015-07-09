@@ -27,8 +27,8 @@ class AppAsset extends AssetBundle {
     'css/icon-fonts.css',
     'css/pixeden-icons.css',
     'css/jquery.qtip.min.css',
-    'css/styles.css?v=6.7',
-    'css/responsive.css?v=6.1',
+    'css/styles.css?v=6.9',
+    'css/responsive.css?v=6.3',
     'css/custom.css?v=3.9',
     'css/jquery.bxslider.css',
   ];
