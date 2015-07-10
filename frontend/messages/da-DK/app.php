@@ -145,4 +145,11 @@ return [
     'No question is too small - We would love to hear from you'=>'Alle spørgsmål er velkomne -  Vi glæder os til at høre fra dig',
     
     'Login' => 'Log ind',
+    
+    'By Certified Bookkeepers'=>'Af FFB Godkendte Bogholdere, fra kun ',
+    'only $' => 'KR',
+    '/ month'=>'/ måned',
+    
+    'Law' => 'Juridisk',
+    'Cookie Policy' => 'Cookie Politik',
 ];

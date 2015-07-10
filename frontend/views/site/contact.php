@@ -25,7 +25,7 @@ $this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/image
         Wakefield MA 01880<br/>
         USA
         <br/><br/>
-        ' . Yii::$app->params['contactPhone'] . '<br/>
+        866-487-8482<br/>
     </div>
     <div class="col-lg-3 left">
         ' . Yii::t('app','ClickBooks, LLC') . '<br/>
