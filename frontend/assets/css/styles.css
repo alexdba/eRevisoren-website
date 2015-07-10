@@ -1059,7 +1059,7 @@ input:focus {
 
 /*-- "Document's" solo page --*/
 .document{
-  padding: 50px;
+  padding: 50px 100px;
 }
 .document-content {
   text-align: left;

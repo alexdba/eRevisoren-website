@@ -10,7 +10,7 @@ return [
     'Tax Ready Bookkeeping $' => 'Danmarks Billigste Bogføring fra KR',
     '/mo' => '/md',
     'By Certified Bookkeepers Specializing In Small Businesses' => 'Af FFB Godkendte Bogholdere med Speciale i Små Virksomheder',
-    'TAX READY BOOKKEEPING' => 'Danmarks Billigste Bogføring fra',
+    'TAX READY BOOKKEEPING' => 'Danmarks Billigste Bogføring ',
     'By Certified Bookkeepers' => 'By Certified Bookkeepers',
     'only $' => 'only $',
     '/ month' => '/ month',

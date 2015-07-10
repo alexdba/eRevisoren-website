@@ -12,7 +12,7 @@ $this->registerJsFile(
   ]);
   
 $this->registerCssFile(
-  Url::to("@web/frontend/assets/css/responsive-pricing-page.css?v=1.0"), [
+  Url::to("@web/frontend/assets/css/responsive-pricing-page.css?v=1.1"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 
