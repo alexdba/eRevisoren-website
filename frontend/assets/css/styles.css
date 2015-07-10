@@ -1059,8 +1059,7 @@ input:focus {
 
 /*-- "Document's" solo page --*/
 .document{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
 }
 .document-content {
   text-align: left;
@@ -1075,7 +1074,7 @@ input:focus {
   text-align: left;
 }
 .document h2 {
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
 .document h6.dark-text {
