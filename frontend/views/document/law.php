@@ -5,7 +5,7 @@ use yii\helpers\Url;
 $this->title = Yii::t('app', 'Hos eBogholderen er prisen alt inklusive Men det er stadig dit ansvar');
 $this->params['breadcrumbs'][] = $this->title;
 
-$this->params["top_banner"] = '<img src="' . Url::to("@web/assets/images/cancellation-policy.jpg", true) . '" class="document-img" />';
+// $this->params["top_banner"] = '<img src="' . Url::to("@web/assets/images/cancellation-policy.jpg", true) . '" class="document-img" />';
 ?>
 <div class="document">
 	<div class="section-header">
