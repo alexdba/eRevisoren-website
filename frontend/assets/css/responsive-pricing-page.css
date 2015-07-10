@@ -1,0 +1,11 @@
+@media (min-width: 1000px) {
+    .qtip-1,.qtip-2,.qtip-3{
+        visibility:hidden;
+    }
+}
+
+@media (max-width: 1000px) {
+    .package-tooltip-tr{
+        display:none;
+    }
+}

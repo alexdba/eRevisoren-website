@@ -332,6 +332,7 @@
   .header .home-attention-row {
     padding-right: 0;
     padding-left: 0;
+    margin-right: 0;
   }
   .intro {
     margin-top: 13%;
@@ -818,6 +819,9 @@
         text-transform: uppercase;
         font-size: 18px;
         line-height: 1.8em;
+    } 
+    #home #main-nav.scroll0 li a.mobile-menu-item, #home #main-nav.scroll1 li a.mobile-menu-item, #home #main-nav li a.mobile-menu-item{
+        background: inherit;
     }
     .navbar-inverse .navbar-nav>li {
         display: block;

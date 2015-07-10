@@ -7,7 +7,12 @@ $this->title = 'My Clickbooks - Which pricing plan is right for you?';
 
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.4"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.5"), [
+    "depends" => "\\frontend\\assets\\AppAsset"
+  ]);
+  
+$this->registerCssFile(
+  Url::to("@web/frontend/assets/css/responsive-pricing-page.css?v=1.0"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 
@@ -58,7 +63,7 @@ $this->registerJsFile(
                 <tr>
                   <th>
                     <a href="#" 
-                       class="package package-light btn-pricing-page">
+                       class="package package-light btn-pricing-page qtip1" title="<?= Yii::t('app','If you’re self-employed without a separate company bank account and only have a few monthly receipts and invoices, but still want to keep your books in order. Then this Package is right for you.')?>">
                       <h4>
                         <span id="price_light">149</span>
                       </h4>
@@ -66,7 +71,7 @@ $this->registerJsFile(
                   </th>
                   <th>
                     <a href="#" 
-                       class="package package-standard btn-pricing-page">
+                       class="package package-standard btn-pricing-page qtip2" title="<?= Yii::t('app','Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.')?>">
                       <h4>
                         <span id="price_standard">395</span>
                       </h4>
@@ -74,7 +79,7 @@ $this->registerJsFile(
                   </th>
                   <th>
                     <a href="#" 
-                       class="package package-plus  btn-pricing-page">
+                       class="package package-plus  btn-pricing-page qtip3" title="<?= Yii::t('app','Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.')?>">
                       <h4>
                         <span id="price_plus">595</span>
                       </h4>

@@ -12,7 +12,28 @@ $(document).ready(function () {
         priceSelect.selectDefinedPrice(false);
     });
 
-
+   //tooltips
+    $('.qtip1').qtip({
+        position: {
+            my: 'top center',  // Position my top left...
+            at: 'bottom center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-1' }
+    });
+    $('.qtip2').qtip({
+        position: {
+            my: 'top center',  // Position my top left...
+            at: 'bottom center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-2' }
+    });
+    $('.qtip3').qtip({
+        position: {
+            my: 'top center',  // Position my top left...
+            at: 'bottom center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-3' }
+    });
 });
     //object for handling selecting price
     var priceSelect = {

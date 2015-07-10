@@ -58,50 +58,17 @@ class DocumentController extends Controller {
     ];
   }
 
-  public function actionFaq() {
+  public function actionLaw() {
   	$model = new GoogleDocReader();
-    return $this->render('faq', [
+    return $this->render('law', [
           'model' => $model,
         ]);
   }
-  public function actionTermsAndConditions() {
+  public function actionCookiePolicy() {
   	$model = new GoogleDocReader();
-    return $this->render('terms-and-conditions', [
+    return $this->render('cookie-policy', [
           'model' => $model,
         ]);
   }
-  public function actionCancellationAndReturnPolicies() {
-  	$model = new GoogleDocReader();
-    return $this->render('cancellation-and-return-policies', [
-          'model' => $model,
-        ]);
-  }
-  public function actionPrivacyPolicy() {
-  	$model = new GoogleDocReader();
-    return $this->render('privacy-policy', [
-          'model' => $model,
-        ]);
-  }
-  public function actionCareers() {
-  	$model = new GoogleDocReader();
-    return $this->render('careers', [
-          'model' => $model,
-        ]);
-  }
-  
-  public function actionSecurity() {
-  	$model = new GoogleDocReader();
-    return $this->render('security', [
-          'model' => $model,
-        ]);
-  }
-  
-  public function actionForAccountants() {
-  	$model = new GoogleDocReader();
-    return $this->render('for-accountants', [
-          'model' => $model,
-        ]);
-  }
-
 
 }
