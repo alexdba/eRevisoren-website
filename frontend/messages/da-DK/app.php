@@ -152,4 +152,7 @@ return [
     
     'Law' => 'Juridisk',
     'Cookie Policy' => 'Cookie Politik',
+    
+    'Thank you for your interest. We will respond to you as soon as possible.'=>'Tak for din interesse. Vi vil kontakte dig snarest.',
+    'Thank you. We will respond to you as soon as possible.'=>'Tak for din interesse. Vi vil kontakte dig snarest.',
 ];

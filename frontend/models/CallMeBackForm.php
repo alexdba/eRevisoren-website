@@ -47,15 +47,15 @@ class CallMeBackForm extends Model
      */
     public function sendEmail($email)
     {
-        $message = "CALL ME BACK: " . $this->phone;
+        $message = "CALL ME BACK: " . $this->phone . ' from form at ebogholderen.dk';
         //add name
         if(!empty($this->name))
             $message .= ', my name is ' . $this->name;
             
         return Yii::$app->mailer->compose()
             ->setTo($email)
-            ->setFrom($email)
-            ->setSubject('Request Call ' . $this->phone . ' from CALL ME BACK form at myclickbooks.com')
+            ->setFrom(['webmaster@ebogholderen.dk'=>'eBogholderen'])
+            ->setSubject('Ring: [' . $this->phone . ']')
             ->setTextBody($message)
             ->send();
     }
