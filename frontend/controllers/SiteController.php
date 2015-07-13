@@ -103,20 +103,20 @@ class SiteController extends Controller {
         if(($model->load(Yii::$app->request->post()))&&($model->validate())){
           if ($model->sendEmail(Yii::$app->params['contactEmail'])) {
                 return [
-                    'message' => 'Thank you. We will respond to you as soon as possible.',
+                    'message' => Yii::t('app', 'Thank you. We will respond to you as soon as possible.'),
                     'status'  => 'success'
                 ];
           }
           else {
             return [
-                'message' => 'There was an error sending email.',
+                'message' => Yii::t('app', 'There was an error sending email.'),
                 'status'  => 'error'
             ];
           }
         }
         else {
             return [
-                'message' => 'There was an error during processing your inputs.',
+                'message' => Yii::t('app', 'There was an error during processing your inputs.'),
                 'status'  => 'error'
             ];
         }
@@ -134,13 +134,13 @@ class SiteController extends Controller {
     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
       if ($model->sendEmail(Yii::$app->params['contactEmail'])) {
             return [
-                'message' => 'Thank you. We will respond to you as soon as possible.',
+                'message' => Yii::t('app', 'Thank you. We will respond to you as soon as possible.'),
                 'status'  => 'success'
             ];
       } 
       else {
         return [
-            'message' => 'There was an error during request.',
+            'message' => Yii::t('app', 'There was an error during request.'),
             'status'  => 'error'
         ];
       }
@@ -170,20 +170,20 @@ class SiteController extends Controller {
     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
       if ($model->sendEmail(Yii::$app->params['contactEmail'])) {
             return [
-                'message' => 'Thank you for your interest. We will respond to you as soon as possible.',
+                'message' => Yii::t('app', 'Thank you for your interest. We will respond to you as soon as possible.'),
                 'status'  => 'success'
             ];
       } 
       else {
         return [
-            'message' => 'There was an error during request.',
+            'message' => Yii::t('app', 'There was an error during request.'),
             'status'  => 'error'
         ];
       }
     }
     else {
         return [
-            'message' => 'There was an error during processing your inputs.',
+            'message' => Yii::t('app', 'There was an error during processing your inputs.'),
             'status'  => 'error'
         ];
     }

@@ -81,7 +81,7 @@ class SignupForm extends Model
         return Yii::$app->mailer->compose()
             ->setTo($email)
             ->setFrom([$this->email => $this->name])
-            ->setSubject('Request from SignUp form at ebogholderen.dk')
+            ->setSubject('Prøv Gratis ['      . $this->name    . ']')
             ->setTextBody($message)
             ->send();
     }

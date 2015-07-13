@@ -2595,6 +2595,9 @@ div.pricing-start-free-trial{
     font-size: 18px;
     font-weight: bold;
 }
+#notice{
+    text-align:center;
+}
 
 #callmeback-form div.form-group{
     text-align:left;
@@ -2604,18 +2607,22 @@ div.pricing-start-free-trial{
 }
 
 #modalSignup ::-webkit-input-placeholder, #modalCallMeBack ::-webkit-input-placeholder{
-   color: #000;
+   color: #555;
 }
 
 #modalSignup :-moz-placeholder,#modalCallMeBack :-moz-placeholder { /* Firefox 18- */
-   color: #000;  
+   color: #555;  
 }
 
 #modalSignup ::-moz-placeholder,#modalCallMeBack ::-moz-placeholder {  /* Firefox 19+ */
-   color: #000;  
+   color: #555;  
 }
 
 #modalSignup :-ms-input-placeholder,#modalCallMeBack :-ms-input-placeholder {  
+   color: #555;  
+}
+
+.modal-body .form-group input{  
    color: #000;  
 }
 

@@ -3,7 +3,7 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 
-$this->title = 'My Clickbooks - Which pricing plan is right for you?';
+$this->title = 'eBogholderen.dk - Which pricing plan is right for you?';
 
 
 $this->registerJsFile(
