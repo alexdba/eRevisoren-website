@@ -54,6 +54,8 @@ $(document).ready(function () {
             signup.way = way;
             $('#modalSignup').modal('show');
             
+            //send open signup event
+            ga('send', 'event' , 'Forms' , 'Signup' , 'Open ' + signup.way );
             
             signup.signupCloseEventSent = false;
             
