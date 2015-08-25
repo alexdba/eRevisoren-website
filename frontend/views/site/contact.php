@@ -33,7 +33,7 @@ $this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/image
         DK-2100 Copenhagen<br/>
         DENMARK
         <br/><br/>
-        (+45) 9111 1117<br/>
+        (+45) 9111 1197<br/>
     </div>
 </div>
 ';
