@@ -1,0 +1,30 @@
+
+
+@media  (min-width: 1300px) {
+    .intro h4 {
+        font-size: 37px;
+    }
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a.callmeback-menu-item,.callmeback-menu-item{
+  background: #E41616;
+  color:white;
+  padding: 0px 8px;
+  border-radius: 4px;
+}
+
+
+.navbar-inverse .navbar-nav>li>a.signup-menu-item.external, a.signup-menu-item.external,
+#home #main-nav.scroll0 li a.signup-menu-item.external,
+#home #main-nav.scroll1 li a.signup-menu-item.external{
+    background: #68B02A;
+    color:#fff;
+    padding: 0px 8px;
+    border: 0;
+    border-radius: 4px;
+    
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;    
+}

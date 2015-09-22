@@ -2747,3 +2747,121 @@ div.pricing-start-free-trial{
 .foot-notes{
     margin: 0 35px;
 }
+
+.index-test-b #newsletter-container{
+    float: right;
+    margin: 20px;
+    color: #000;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 2px solid #4E4E4E;
+}
+
+.index-test-b .newsletter-header{
+    color: #0C3B45;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.index-test-b .btn-newsletter{
+    margin: 0 -3px;
+}
+
+.index-test-b .attention-row-headings{
+    width: 688px;
+    float: right;
+    margin-right: 25px;
+}
+
+.index-test-b .intro_sub_heading{
+    width: 397px;
+    float: right;
+    line-height: 35px;
+}
+
+.index-test-b .attention-row-buttons{
+    margin-top: 27px;
+}
+
+.index-test-b #watch-button{
+    margin-right: 0;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.index-test-b #notice{
+    float: left;
+}
+
+
+@media (max-width: 1700px) {
+    .index-test-b .home-attention-row-subcontainer{
+        margin-right: -50px;
+    }
+    .index-test-b .attention-row-headings, .index-test-b #watch-button{
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 1580px) {
+    .index-test-b .attention-row-headings{
+        background: rgba(255, 255, 255, 0.79);
+        border-radius: 6px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .index-test-b #newsletter-container{
+        position: absolute;
+        bottom: -336px;
+        left: 0;
+        width: 100%;
+        margin-left: -65px;
+        margin-right: 0;
+    }
+    .header .home-attention-row-wrapper.index-test-b{
+        height: 720px;
+    }
+    .index-test-b .attention-row-headings{
+        width: inherit;
+        float: none;
+        margin-right: 25px;
+        background: transparent;
+    }
+    
+    .index-test-b .intro_sub_heading{
+        width: inherit;
+        float: none;
+        line-height: inherit;
+    }
+    
+    .index-test-b .attention-row-buttons{
+        margin-top: inherit;
+        text-align: center;
+    }
+    
+    .index-test-b #watch-button{
+        margin: 0;
+    }
+    
+    .index-test-b .newsletter-buttons{
+        text-align: center;
+    }
+}
+@media (max-width: 850px) {
+    .index-test-b #newsletter-container{
+        bottom: -290px;
+        margin-left: 0;
+    }
+}
+@media (max-width: 485px) {
+    .index-test-b #newsletter-container{
+        bottom: -340px;
+        margin-left: 5px;
+    }
+    .header .home-attention-row-wrapper.index-test-b{
+        height: 650px;
+    }
+}
+

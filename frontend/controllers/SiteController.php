@@ -9,6 +9,7 @@ use frontend\models\ResetPasswordForm;
 use frontend\models\SignupForm;
 use frontend\models\ContactForm;
 use frontend\models\CallMeBackForm;
+use frontend\models\NewsletterForm;
 use frontend\models\CustomerCases;
 use yii\base\InvalidParamException;
 use yii\web\BadRequestHttpException;
@@ -63,6 +64,10 @@ class SiteController extends Controller {
 
   public function actionIndex() {
     return $this->render('index');
+  }
+  
+  public function actionIndexBTest() {
+    return $this->render('index-b-test');
   }
   
   public function actionPricingPlans() {
@@ -130,6 +135,30 @@ class SiteController extends Controller {
 
   public function actionCallmeback() {
     $model = new CallMeBackForm();
+	Yii::$app->response->format = 'json';
+    if ($model->load(Yii::$app->request->post()) && $model->validate()) {
+      if ($model->sendEmail(Yii::$app->params['contactEmail'])) {
+            return [
+                'message' => Yii::t('app', 'Thank you. We will respond to you as soon as possible.'),
+                'status'  => 'success'
+            ];
+      } 
+      else {
+        return [
+            'message' => Yii::t('app', 'There was an error during request.'),
+            'status'  => 'error'
+        ];
+      }
+    }
+    else {
+        return [
+            'message' => 'There was an error during processing your inputs.',
+            'status'  => 'error'
+        ];
+    }
+  }
+  public function actionNewsletter() {
+    $model = new NewsletterForm();
 	Yii::$app->response->format = 'json';
     if ($model->load(Yii::$app->request->post()) && $model->validate()) {
       if ($model->sendEmail(Yii::$app->params['contactEmail'])) {
