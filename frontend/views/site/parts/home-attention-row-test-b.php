@@ -33,7 +33,7 @@ $model = new NewsletterForm();
             
           <div class="attention-row-headings">
             <h4 class="fullscreen-page-heading">
-              <?= Yii::t('app', 'Vi laver din moms- og årsopgørelse fra kun 149 kroner per måned.'); ?>
+              <?= Yii::t('app', 'Vi laver løbende bogføring, moms- og årsopgørelse for kun 4.800,- per år.'); ?>
               <div class="intro_sub_heading">
                 <?= Yii::t('app', 'Alt du skal gøre er at tage billeder af dine bilag med vores app'); ?>
               </div>
