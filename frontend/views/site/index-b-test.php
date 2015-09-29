@@ -16,7 +16,7 @@ $this->registerJsFile(
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
   
-$this->registerCssFile('@web/frontend/assets/css/index-test-b.css?v=1.1', [
+$this->registerCssFile('@web/frontend/assets/css/index-test-b.css?v=1.2', [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
   

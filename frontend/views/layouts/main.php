@@ -208,13 +208,6 @@ $socialMenuItems = [
             ?>
           </div>
           <div class="col-md-5 footer-column">
-              <h4><?= Yii::t('app','Certificates'); ?></h4>
-              <?= Yii::t('app','ClickBooks accountants are certified by the following<br/>national associations of bookkeepers:'); ?><br/><br/>
-            <?= 
-              Html::img(
-                Url::to("@web/assets/images/logo-associations.jpg?v=1.1", true),
-                ["alt" => "associations", "class" => "img-responsive"]);
-            ?>
           </div>
         </div>
       </div>

@@ -16,15 +16,9 @@ use yii\captcha\Captcha;
         <div class="home-attention-row-subcontainer">
           <div class="attention-row-headings">
             <h4 class="fullscreen-page-heading">
-              <?= Yii::t('app', 'Tax Ready Bookkeeping $'); ?>
-                <span class="fullscreen-highlighted-price">
-                149
-                </span>
-                <span class="fullscreen-after-highlighted-price">
-                <?= Yii::t('app', '/mo'); ?>
-                </span>
+              <?= Yii::t('app', 'Vi laver løbende bogføring, moms- og årsopgørelse for kun 4.800,- per år.'); ?>
               <div class="intro_sub_heading">
-                <?= Yii::t('app', 'By Certified Bookkeepers Specializing In Small Businesses'); ?>
+                <?= Yii::t('app', 'Alt du skal gøre er at tage billeder af dine bilag med vores app'); ?>
               </div>
             </h4>
             <h4 class="mobile-page-heading">

@@ -46,6 +46,9 @@
     float: left;
 }
 
+.index-test-b .attention-box{
+    padding-top: 0;
+}
 
 @media (max-width: 1700px) {
     .index-test-b .home-attention-row-subcontainer{
