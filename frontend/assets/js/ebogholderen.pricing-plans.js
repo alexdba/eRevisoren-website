@@ -50,26 +50,38 @@ $(document).ready(function () {
         },
         'selectDefinedPrice' : function(monthly){
             if(monthly){
-                price_light      = {'from':149, 'to':175};
-                price_standard   = {'from':399, 'to':465};
-                price_plus       = {'from':599, 'to':699};
+                price_light      = {'from':990, 'to':95 };
+                price_standard   = {'from':1490, 'to':145};
+                price_plus       = {'from':3490, 'to':345};
                 button_highlight   = '#button_yearly';
                 button_unhighlight = '#button_monthly';
+                //images
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean-maned.jpg?v=1.3)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean-maned.jpg?v=1.3)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean-maned.jpg?v=1.3)');
             }else
             {//yearly
-                price_light      = {'from':175, 'to':149};
-                price_standard   = {'from':465, 'to':399};
-                price_plus       = {'from':699, 'to':599};
+                price_light      = {'from':95 , 'to':990};
+                price_standard   = {'from':145, 'to':1490};
+                price_plus       = {'from':345, 'to':3490};
                 button_highlight   = '#button_monthly';
                 button_unhighlight = '#button_yearly';
+                //images
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean.jpg?v=1.3)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean.jpg?v=1.3)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean.jpg?v=1.3)');
             }
 
             if($('#price_standard').html()==price_standard.to)
                 return;
                 
-            this.animatePrice('#price_light',price_light.from,price_light.to);
-            this.animatePrice('#price_standard',price_standard.from,price_standard.to);
-            this.animatePrice('#price_plus',price_plus.from,price_plus.to);
+            $('#price_light').text(price_light.to);
+            $('#price_standard').text(price_standard.to);
+            $('#price_plus').text(price_plus.to);
+            //disabled for a time
+            // this.animatePrice('#price_light',price_light.from,price_light.to);
+            // this.animatePrice('#price_standard',price_standard.from,price_standard.to);
+            // this.animatePrice('#price_plus',price_plus.from,price_plus.to);
             
             
             $(button_highlight).removeClass().addClass('color-blue');
