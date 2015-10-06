@@ -56,9 +56,9 @@ $(document).ready(function () {
                 button_highlight   = '#button_yearly';
                 button_unhighlight = '#button_monthly';
                 //images
-                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean-maned.jpg?v=1.3)');
-                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean-maned.jpg?v=1.3)');
-                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean-maned.jpg?v=1.3)');
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean-maned.jpg?v=1.4)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean-maned.jpg?v=1.4)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean-maned.jpg?v=1.4)');
             }else
             {//yearly
                 price_light      = {'from':95 , 'to':990};
@@ -67,9 +67,9 @@ $(document).ready(function () {
                 button_highlight   = '#button_monthly';
                 button_unhighlight = '#button_yearly';
                 //images
-                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean.jpg?v=1.3)');
-                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean.jpg?v=1.3)');
-                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean.jpg?v=1.3)');
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean.jpg?v=1.4)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean.jpg?v=1.4)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean.jpg?v=1.4)');
             }
 
             if($('#price_standard').html()==price_standard.to)

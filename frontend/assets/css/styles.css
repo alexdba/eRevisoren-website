@@ -1277,7 +1277,7 @@ input:focus {
 }
 
 .package-light{
-    background-image:url(../images/home/price-light-clean.jpg?v=1.2);
+    background-image:url(../images/home/price-light-clean.jpg?v=1.4);
     background-repeat:no-repeat;
     background-position:center center;
     padding-top: 93px;
@@ -1287,7 +1287,7 @@ input:focus {
 }
 
 .package-standard{
-    background-image:url(../images/home/price-standard-clean.jpg?v=1.2);
+    background-image:url(../images/home/price-standard-clean.jpg?v=1.4);
     background-repeat:no-repeat;
     background-position:center center;
     margin-right   : -2px;
@@ -1300,7 +1300,7 @@ input:focus {
     height:330px;
 }
 .package-plus{
-    background-image:url(../images/home/price-plus-clean.jpg?v=1.3);
+    background-image:url(../images/home/price-plus-clean.jpg?v=1.4);
     background-repeat:no-repeat;
     background-position:center center;
     padding-top: 96px;
@@ -2738,6 +2738,7 @@ div.pricing-start-free-trial{
   vertical-align: top;
   margin-left: 5px;
   margin-top: -13px;
+  padding-left: 10px;
 }
 
 .home-attention-row-wrapper .container{
@@ -2778,6 +2779,12 @@ div.pricing-start-free-trial{
     padding-top: 0;
 }
 
+.document-img.contact-img{
+    max-height: 512px;
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 @media (max-width: 1700px) {
     .home-attention-row-subcontainer{

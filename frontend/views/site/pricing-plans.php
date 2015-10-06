@@ -7,7 +7,7 @@ $this->title = 'eBogholderen.dk - Hvilken Pakke er rigtig for mig?';
 
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.6"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.pricing-plans.js?v=1.7"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
   
