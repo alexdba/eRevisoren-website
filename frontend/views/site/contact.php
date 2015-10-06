@@ -12,7 +12,7 @@ $this->registerJsFile(
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 
-$this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/images/contact.jpg?v=1.2", true) . '" class="document-img img-responsive contact-img" />
+$this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/images/contact.jpg?v=1.4", true) . '" class="document-img img-responsive contact-img" />
 <div class="blue-contact-panel">
     <div class="col-lg-1">
     </div>
