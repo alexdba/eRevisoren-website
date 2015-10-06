@@ -12,7 +12,7 @@ $this->registerJsFile(
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 
-$this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/images/contact.jpg?v=1.0", true) . '" class="document-img img-responsive" />
+$this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/images/contact.jpg?v=1.2", true) . '" class="document-img img-responsive contact-img" />
 <div class="blue-contact-panel">
     <div class="col-lg-1">
     </div>
@@ -33,7 +33,7 @@ $this->params["top_banner"] = '<img src="' . Url::to("@web/frontend/assets/image
         DK-2100 Copenhagen<br/>
         DENMARK
         <br/><br/>
-        (+45) 9111 1197<br/>
+        (+45) 9111 1117<br/>
     </div>
 </div>
 ';
