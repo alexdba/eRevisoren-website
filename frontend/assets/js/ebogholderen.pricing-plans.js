@@ -50,26 +50,26 @@ $(document).ready(function () {
         },
         'selectDefinedPrice' : function(monthly){
             if(monthly){
-                price_light      = {'from':990, 'to':95 };
-                price_standard   = {'from':1490, 'to':145};
-                price_plus       = {'from':3490, 'to':345};
+                price_light      = {'from':'', 'to':95 };
+                price_standard   = {'from':'', 'to':145};
+                price_plus       = {'from':'', 'to':345};
                 button_highlight   = '#button_yearly';
                 button_unhighlight = '#button_monthly';
                 //images
-                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean-maned.jpg?v=1.4)');
-                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean-maned.jpg?v=1.4)');
-                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean-maned.jpg?v=1.4)');
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean-maned.jpg?v=1.5)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean-maned.jpg?v=1.5)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean-maned.jpg?v=1.5)');
             }else
             {//yearly
-                price_light      = {'from':95 , 'to':990};
-                price_standard   = {'from':145, 'to':1490};
-                price_plus       = {'from':345, 'to':3490};
+                price_light      = {'from':95 , 'to':''};
+                price_standard   = {'from':145, 'to':''};
+                price_plus       = {'from':345, 'to':''};
                 button_highlight   = '#button_monthly';
                 button_unhighlight = '#button_yearly';
                 //images
-                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean.jpg?v=1.4)');
-                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean.jpg?v=1.4)');
-                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean.jpg?v=1.4)');
+                $('.package-light').css('background-image','url(../frontend/assets/images/home/price-light-clean.jpg?v=1.5)');
+                $('.package-standard').css('background-image','url(../frontend/assets/images/home/price-standard-clean.jpg?v=1.5)');
+                $('.package-plus').css('background-image','url(../frontend/assets/images/home/price-plus-clean.jpg?v=1.5)');
             }
 
             if($('#price_standard').html()==price_standard.to)
