@@ -736,6 +736,7 @@
         -webkit-transform: scale(0.9);
         -o-transform: scale(0.9); 
         -ms-transform: scale(0.9); 
+        max-width: 290px;
     }
     .section-header h2.dark-text {
       padding-top: 30px;

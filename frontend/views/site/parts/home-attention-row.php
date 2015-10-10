@@ -16,15 +16,23 @@ use yii\captcha\Captcha;
         <div class="home-attention-row-subcontainer">
           <div class="attention-row-headings">
             <h4 class="fullscreen-page-heading">
-              <?= Yii::t('app', 'Vi laver løbende bogføring, moms- og årsopgørelse for kun 3.490 per år.'); ?>
+              <?= Yii::t('app', 'Vi Laver Din Bogføring, Moms- og Årsregnskab For Kun 3.490 Per År.'); ?>
               <div class="intro_sub_heading">
-                <?= Yii::t('app', 'Alt du skal gøre er at tage billeder af dine bilag med vores app'); ?>
+                <?= Yii::t('app', 'Pris Garanti - Danmarks Billigste Certificerede Bogholder'); ?>
               </div>
             </h4>
             <h4 class="mobile-page-heading">
-              <?= Yii::t('app', 'Vi laver løbende bogføring, moms- og årsopgørelse for kun 3.490 per år.'); ?>
+              <?= Yii::t('app', 'Vi Laver Din Bogføring, '); ?>
               <div class="intro_sub_heading">
-                <?= Yii::t('app', 'Alt du skal gøre er at tage billeder af dine bilag med vores app'); ?>
+                <?= Yii::t('app', 'Moms- og Årsregnskab For '); ?>
+                <br/>
+                <?= Yii::t('app', 'Kun'); ?>
+                <span class="highlighted-price">
+                3.490
+                </span>
+                <span class="after-price">
+                <?= Yii::t('app', 'År.'); ?>
+                </span>
               </div>
             </h4>
           </div>
