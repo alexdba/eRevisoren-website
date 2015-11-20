@@ -7,15 +7,15 @@ return [
     'Contact' => 'Kontakt',
     'Free Trial' => 'Prøv Gratis',
     
-    'Tax Ready Bookkeeping $' => 'Danmarks Billigste Bogføring fra KR',
+    'Tax Ready Bookkeeping $' => 'Danmarks billigste bogføring fra KR',
     '/mo' => '/md',
-    'By Certified Bookkeepers Specializing In Small Businesses' => 'Af FFB Godkendte Bogholdere med Speciale i Små Virksomheder',
-    'TAX READY BOOKKEEPING' => 'Danmarks Billigste Bogføring ',
-    'By Certified Bookkeepers' => 'By Certified Bookkeepers',
+    'By Certified Bookkeepers Specializing In Small Businesses' => 'Af FFB godkendte bogholdere med speciale i små virksomheder',
+    'TAX READY BOOKKEEPING' => 'Danmarks billigste bogføring ',
+    'By Certified Bookkeepers' => 'By certified bookkeepers',
     'only $' => 'only $',
     '/ month' => '/ month',
-    'Watch The Video' => 'Se Video',
-    'Start your FREE trial' => 'Prøv Gratis',
+    'Watch The Video' => 'Se video',
+    'Start your FREE trial' => 'Prøv gratis',
     
     'How it works?' => 'Så let som 1-2-3',
     'As simple as taking a picture' => 'Bogføring så let som at tage et billede',
@@ -29,7 +29,7 @@ return [
     'ClickBooks can <b>help you</b>' => 'eBogholderen kan <b>hjælpe dig</b>',
     'Call to find out how:' => 'Ring og hør hvordan',
     
-    'FREE TRIAL' => 'Prøv Gratis',
+    'FREE TRIAL' => 'Prøv gratis',
     'Start Your Free Trial' => 'Prøv Gratis',
     
     'What Our Customers Say' => 'Sådan virker det',
@@ -50,8 +50,8 @@ return [
     'Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.' => 'Hvorfor overhovedet bruge en dyr revisor hvis det ikke er nødvendigt. Hvis vi i forvejen har lavet din bogføring, hvorfor så ikke også lade os klare resten af Skat, Moms og indberetning for kun en lille smule ekstra om måneden.',
     
     'A revolutionary service that helps 1000\'s of small businesses every day' => 'En revolutionerende service der hjælper 100vis af små virksomheder hver dag',
-    'AT A GREAT PRICE!' => 'OKTOBER TILBUD – FANTASTISK PRIS',
-    'What\'s included?' => 'Hvilken Pakke er den rigtige for mig?',
+    'AT A GREAT PRICE!' => 'NOVEMBER TILBUD – FANTASTISK PRIS',
+    'What\'s included?' => 'Hvilken pakke er den rigtige for mig?',
     'Compare plans' => 'SAMMENLIGN PAKKER',
     
     'NAME*' => 'Navn*',
@@ -61,22 +61,22 @@ return [
     
     'Sign Up'=>'Send',
     
-    'Call Me Back' => 'Ring Mig Op',
+    'Call Me Back' => 'Ring mig op',
     
-    'CALL ME BACK' => 'Ring Mig Op',
+    'CALL ME BACK' => 'Ring mig op',
     'OPTIONAL' => 'Hvis ønsket',
-    'Enter Number:' => 'Indtast Nummer:',
-    'Enter Name:' => 'Indtast Navn:',
+    'Enter Number:' => 'Indtast nummer:',
+    'Enter Name:' => 'Indtast navn:',
     
     'Features'=>'Features & Fordele',
     'A revolution for the small-business owner'=>'En revolution for den lille virksomhedsejer',
-    'It Saves Money'=>'Du Sparer Penge',
+    'It Saves Money'=>'Du sparer penge',
     'ClickBooks gives you great value for your money. Not only do we offer the lowest bookkeeping rates in America. But on top of that our clients find that they are finally able to easily capture all of their receipts and thereby getting their full tax deductions.'=>'eBogholderen giver dig den bedste værdi for pengene. Ikke blot tilbyder vi de bedste bogføringspriser i Danmark. Men med eBogholderens revolutionerende koncept og app, sikrer vi at vores kunder lettere får inkluderet alle deres bilag, og dermed får fuldt fradrag for alle deres omkostninger.',
-    'Top Notch Experienced Bookkeepers'=>'Kun Erfarne og Certificerede Bogholdere',
+    'Top Notch Experienced Bookkeepers'=>'Kun erfarne og certificerede bogholdere',
     'At ClickBooks we only use the best bookkeepers. Our bookkeepers are all certified seasoned professionals carefully selected, tested and trained in using the latest tools and technologies.'=>'Hos eBogholderen bruger vi kun erfarne og certificerede Bogholdere. Vores bogholdere er nøje udvalgte og har stor erfaring med små virksomheder. Alle er testet og trænet i brugen af de nyeste værktøjer og teknologi, og bliver løbende uddannet i de nyeste skatte- og bogføringsregler.',
-    'It\'s highly Secure'=>'Det er Sikkert',
+    'It\'s highly Secure'=>'Det er sikkert',
     'The security and privacy of your data is our highest priority. To ensure your safety we have invested in the latest state-of-the art technologies used by large banking and leading financial institutions.'=>'Sikkerhed og fortrolighed af dine data er vores højeste prioritet. For at sikre din sikkerhed benytter vi de samme sikkerhedsteknologier, som anvendes af banker og finansielle institutioner.',
-    'It Saves Time'=>'Du Sparer Tid',
+    'It Saves Time'=>'Du sparer tid',
     'With ClickBooks your time spent organizing your receipt and invoices have just been dramatically reduced. Not only the time you spend on organizing but also the time you spend worrying about it.'=>'Med eBogholderen er den tid du bruger på at organisere og opbevare dine bilag blevet kraftigt reduceret. Ikke bare den tid du bruger på at håndtere dine bilag, men også den tid du bruger på at bekymre dig om dine bilag.',
     'It\'s Incredibly Easy to Use'=>'Det er Utroligt Simpelt at Bruge',
     'You\'ll never find a service that\'s easier to use than Clickbooks. Use our simple app to take pictures of your receipts and invoices and just let us take it from there. You\'re only 5 minutes away from being fully and finally out of the bookkeeping business.'=>'Du kommer ikke til at finde en service der er lettere at bruge end eBogholderen. Brug vores simple App til at tage billeder af dine bilag, og lad os klare den derfra. Du er kun 5 minutter væk fra at have forsimplet dit liv gevaldigt.',
@@ -98,9 +98,9 @@ return [
     'Can you also do my taxes?'=>'Kan I også håndtere Skat og Indberetning?',
     'Yes we can. By signing up to our Tax Service Package we will take care of your Tax Filing as well as your Bookkeeping.'=>'Ja, det kan vi. Ved at vælge vores Fuld Service løsning klarer vi udover bogføringen, både skatteregnskab og indberetning til alle myndigheder for dig.',
     'What if I want to leave?'=>'Hvad hvis jeg gerne vil skifte væk fra eBogholderen?',
-    'No problem. You will never be tied to ClickBooks longer than you want to. Just give us 30 days notice and we\'ll export your current books to a csv/excel format that can be utilized by your new bookkeeper.'=>'Ingen problemer. Du vil aldrig være bundet til eBogholderen længere end du ønsker det. Bare giv os 30 dages varsel, så kan vi overføre din bogføring til csv/excel format som kan bruges af din kommende bogholder.',
+    'No problem. You will never be tied to ClickBooks longer than you want to. Just give us 30 days notice and we\'ll export your current books to a csv/excel format that can be utilized by your new bookkeeper.'=>'Ingen problemer. Du vil aldrig være bundet til eBogholderen længere end du ønsker det. Som en gratis service videregiver vi dine bogføringsdata til en anden bogholder, hvis behovet opstår. Vi kan også eksportere dataene til et andet regnskabssystem for eksempel Dinero, E-conomic eller lignende.',
 
-    'Which pricing plan is right for you?'=>'Hvilken Pakke er rigtig for mig?',
+    'Which pricing plan is right for you?'=>'Hvilken pakke er rigtig for mig?',
     'SELECT BILLING PERIOD:'=>'VÆLG AFREGNINGSPERIODE:',
     'Yearly (Save 17%)'=>'Årlig (Spar 17%)',
     'Monthly'=>'Månedlig',
@@ -114,8 +114,8 @@ return [
     'Bank Reconciliation2'=>'Udarbejdelse af bogføringsrapporter',
     'Tax Calculation'=>'Løbende indberetning af moms',
     'Tax Filing'=>'Elektronisk Indberetning til Erhvervsstyrelsen <sup>3)</sup>',
-    'Tax Filing2'=>'Udarbejdelse af Skatteregnskab <sup>4)</sup>',
-    'Tax Filing3'=>'Indberetning af Selvangivelse <sup>5)</sup>',
+    'Tax Filing2'=>'Udarbejdelse af skatteregnskab <sup>4)</sup>',
+    'Tax Filing3'=>'Indberetning af selvangivelse <sup>5)</sup>',
     'Free use of our app for smartphones'=>'Gratis brug af vores app til smartphones',
     'Including 150 Annex per year <sup>1)</sup>'=>'Inklusiv 150 bilag per år <sup>1)</sup>',
     'Pricing plans notes' => '<sup>1)</sup><span> Har du mere end 150 bilag per år, så tager vi 1.200 kroner per påbegyndte 100 bilag herudover.<br/>Hvis du i forvejen ved hvor mange bilag du ca har i løbet af året, kan du på forhånd købe ekstra bilagspakker for kun 900 kroner per 100 bilag – dvs. en besparelse på hele 25%. Har du eksempelvis 350 bilag, skal du dermed kun betale 1.800 kroner ekstra (2 x 900 kroner). Ubrugte bilagspakker kan overføres til næste regnskabsår. </span><br class="clear"/><sup>2)</sup> <span>“Rådgivning” dækker ikke mere omfattende rådgivning, såsom skatte- og revisionsrådgivning. Disse former for rådgivning tilkøbes separat.</span><br class="clear"/><sup>3)</sup> <span>Elektronisk Indberetning til Erhvervsstyrelsen vedrører kun selskaber.</span><br class="clear"/><sup>4)</sup> <span>Hvis du er en enkeltmandsvirksomhed, udarbejdes dit private Skatteregnskab også.</span><br class="clear"/><sup>5)</sup> <span>For selskaber foretages Indberetning af Virksomhedens Selvangivelse, og for Enkeltmandsvirksomheder Indberettes den Personlige Selvangivelse.</span>',
@@ -123,11 +123,11 @@ return [
     '*Included in both our packages are up to 500 transactions yearly, which covers the need of almost all self-employed people and small businesses.'=>'Det er vores erfaring at for de fleste er behovet for rådgivning koncentreret omkring at kunne få svar på helt konkrete spørgsmål vedrørende momsfradrag og lignende. Og i disse tilfælde vil den medfølgende times rådgivning være tilstrækkelig til at dække behovet.',
     'However should you find yourself in the lucky circumstances that you have more transactions than what is included in your package, we will only charge you a mere 50 cents extra per additional transaction.'=>'Der kan dog være tilfælde hvor der er behov for mere omfattende rådgivning, eksempelvis skatte- eller revisionsrådgivning og i disse tilfælde vil det altid være muligt at tilkøbe ekstra rådgivningsydelser efter behov fra vores erfarne rådgivere.<br/><br/>Bare ring 91 11 11 97 og fortæl os hvad dit behov er.',
     
-    'Contact Us'=>'Kontakt Os',
+    'Contact Us'=>'Kontakt os',
     'Company Information'=>'',
     'Service'=>'',
     'Certificates'=>'CERTIFIKATER',
-    'ClickBooks accountants are certified by the following<br/>national associations of bookkeepers:'=>'eBogholderens Bogholdere er medlemmer af FFB',
+    'ClickBooks accountants are certified by the following<br/>national associations of bookkeepers:'=>'eBogholderens bogholdere er medlemmer af FFB',
     '&copy; Copyright {year}, ClickBooks. All Rights Reserved.'=>'&copy; Copyright {year}, eBogholderen. All Rights Reserved.',
     
     'ADDRESSES:'=>'ADRESSER:',
@@ -148,12 +148,12 @@ return [
     
     'Login' => 'Log ind',
     
-    'By Certified Bookkeepers'=>'Af FFB Godkendte Bogholdere, fra kun ',
+    'By Certified Bookkeepers'=>'Af FFB godkendte bogholdere, fra kun ',
     'only $' => 'KR',
     '/ month'=>'/ måned',
     
     'Law' => 'Juridisk',
-    'Cookie Policy' => 'Cookie Politik',
+    'Cookie Policy' => 'Cookie politik',
     
     'Thank you for your interest. We will respond to you as soon as possible.'=>'Tak for din interesse. Vi vil kontakte dig snarest.',
     'Thank you. We will respond to you as soon as possible.'=>'Tak for din interesse. Vi vil kontakte dig snarest.',
