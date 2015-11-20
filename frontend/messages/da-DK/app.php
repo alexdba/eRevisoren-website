@@ -5,7 +5,7 @@ return [
     'Pricing' => 'Priser',
     'FAQ' => 'FAQ',
     'Contact' => 'Kontakt',
-    'Free Trial' => 'Prøv Gratis',
+    'Free Trial' => 'Prøv gratis',
     
     'Tax Ready Bookkeeping $' => 'Danmarks billigste bogføring fra KR',
     '/mo' => '/md',
@@ -30,7 +30,7 @@ return [
     'Call to find out how:' => 'Ring og hør hvordan',
     
     'FREE TRIAL' => 'Prøv gratis',
-    'Start Your Free Trial' => 'Prøv Gratis',
+    'Start Your Free Trial' => 'Prøv gratis',
     
     'What Our Customers Say' => 'Sådan virker det',
     'Why Are ClickBooks Bookkeepers So Cheap?' => 'Hvorfor er eBogholderen så billig?',
@@ -39,9 +39,9 @@ return [
     'A traditional bookkeepers spends 73% of his time handling paper. And on average each paper is handled 12.6 times.' => 'En traditionel bogholder bruger 73% af sin tid på bilagshåndtering. Og i snit håndteres hvert bilag 12,6 gange.',
     'Traditional Bookkeeper' => 'Traditional bogholder',
     'Lots of Papers' => 'Masser af papir',
-    'We are Paperless that\'s why we are cheap.' => 'Vi arbejder Papirløst, derfor er vi billige.',
+    'We are Paperless that\'s why we are cheap.' => 'Vi arbejder papirløst, derfor er vi billige.',
     
-    'Sign Up for a Free Trial (no credit card needed)' => 'Tilmeld dig en gratis Prøvemåned',
+    'Sign Up for a Free Trial (no credit card needed)' => 'Tilmeld dig en gratis prøvemåned',
     'Meet Your Bookkeeper' => 'Snak med din personlige kontaktperson',
     'Receive a Free Income Statement' => 'Få en gratis bogføringsrapport for prøveperioden',
 
