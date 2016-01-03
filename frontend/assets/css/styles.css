@@ -2451,6 +2451,7 @@ div.pricing-start-free-trial{
 .package-tooltip-tr th{
   margin-left:-2px;
   margin-right:-2px;
+  width:360px;
 }
 
 .package-tooltip{
