@@ -19,11 +19,11 @@
         line-height:35px;
     }
     .btn-pricing-image{
-        transform: scale(0.75);
+        /*transform: scale(0.75);
         -moz-transform: scale(0.75); 
         -webkit-transform: scale(0.75);
         -o-transform: scale(0.75); 
-        -ms-transform: scale(0.75); 
+        -ms-transform: scale(0.75); */
     }
     
     .prices .text{
@@ -33,8 +33,8 @@
         font-size: 0.65em;
     }
     .prices .package{
-        width: 234px;
-        height:198px;
+        width: 100%;
+       
         background-size:100%;
     }
     .menu-container {
@@ -46,12 +46,12 @@
     }
     
     .package-tooltip {
-      font-size: 11px;
+      font-size:13px;
       text-align: left;
-      padding: 10px 27px;
+      padding: 15px 20px;
       font-weight: normal;
-      min-height: 142px;
-      line-height: 1.7em;
+     
+      line-height: 1.3em;
       margin: 0 auto;
     }
     .package h4{
@@ -270,11 +270,11 @@
     }
 
     .package-tooltip {
-      font-size: 11px;
+      font-size: 13px;
       text-align: left;
-      padding: 10px 27px;
+      padding: 15px 20px;
       font-weight: normal;
-      min-height: 122px;
+     
       line-height: 1.3em;
       margin: 0 auto;
     }
@@ -292,8 +292,8 @@
         font-size: 0.35em;
     }
     .prices .package{
-        width: 130px;
-        height:153px;
+       
+       /* height:153px;*/
     }
     .package-light, .package-standard,.package-plus{
         padding-top: 0px;
@@ -535,7 +535,8 @@
         font-size: 0.3em;
     }
     .prices .package{
-        width: 120px;
+	
+        width: 360px;
         height:135px;
     }
     .package h4{
