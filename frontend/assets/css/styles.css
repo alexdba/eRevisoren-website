@@ -1282,7 +1282,7 @@ input:focus {
     background-position:center center;
     padding-top: 93px;
     padding-right: 0;
-    width:360px;
+    width:100%;
     height:330px;
 }
 
@@ -1905,9 +1905,11 @@ TABLE.one-two-three .dash{
 
 .prices{
     font-size: 1.2em;
-    width: 100%;
-    max-width: 784px;
+   
+    max-width: 1090px;
+	max-width:1090px;
     margin: 0 auto;
+	display:block;
 }
 .prices th, .prices td{
   border-right: 4px solid white;
@@ -2449,31 +2451,32 @@ div.pricing-start-free-trial{
     border:0;
 }
 .package-tooltip-tr th{
-  margin-left:-2px;
-  margin-right:-2px;
+ width:33%;
+  
 }
 
 .package-tooltip{
   font-size: 13px;
   text-align: left;
-  padding: 13px 23px;
+  padding: 13px 20px;
   font-weight: normal;
   line-height: 1.7em;
   min-height: 168px;  
+  height:173px;
 }
 
 .package-tooltip-1{
-    background: url(../images/pricing/package-tooltip-1.jpg?v=1.0);
+    background: url(../images/pricing/package-tooltip-1.jpg?v=1.0) 50%;
     background-size: contain;
     background-repeat: no-repeat;
 }
 .package-tooltip-2{
-    background: url(../images/pricing/package-tooltip-2.jpg?v=1.0);
-    background-size: contain;
+    background: url(../images/pricing/package-tooltip-2.jpg?v=1.0) 50%;
+    background-size: 100%;;
     background-repeat: no-repeat;
 }
 .package-tooltip-3{
-    background: url(../images/pricing/package-tooltip-3.jpg?v=1.0);
+    background: url(../images/pricing/package-tooltip-3.jpg?v=1.0) 50%;
     background-size: contain;
     background-repeat: no-repeat;
 }
