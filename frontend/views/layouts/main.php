@@ -220,6 +220,7 @@ $socialMenuItems = [
     </footer>
     <?php $this->endBody() ?>
     <?= $this->render("../../config/olark-chat"); ?>
+    <?= $this->render("../../config/facebook-pixel-code"); ?>
   </body>
 </html>
 <?php $this->endPage() ?>
