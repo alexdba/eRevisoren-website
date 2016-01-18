@@ -1274,6 +1274,7 @@ input:focus {
   margin: 0px;
   font-weight: bold;
   font-family: 'Varela', sans-serif;
+  background-size: 100%;
 }
 
 .package-light{
@@ -1282,7 +1283,7 @@ input:focus {
     background-position:center center;
     padding-top: 93px;
     padding-right: 0;
-    width:100%;
+    width:270px;
     height:330px;
 }
 
@@ -1296,7 +1297,7 @@ input:focus {
     margin-top     : 8px;
     padding-top: 96px;
     padding-right: 0;
-    width:360px;
+    width:270px;
     height:330px;
 }
 .package-plus{
@@ -1305,9 +1306,19 @@ input:focus {
     background-position:center center;
     padding-top: 96px;
     padding-right: 0;
-    width:360px;
+    width:270px;
     height:330px;
 }
+.package-special{
+    background-image:url(../images/home/price-special.jpg?v=1.5);
+    background-repeat:no-repeat;
+    background-position:center center;
+    padding-top: 96px;
+    padding-right: 0;
+    width:270px;
+    height:330px;
+}
+
 
 .prices .package-standard{
 
@@ -2456,11 +2467,11 @@ div.pricing-start-free-trial{
 }
 
 .package-tooltip{
-  font-size: 13px;
+  font-size: 12px;
   text-align: left;
-  padding: 13px 20px;
+  padding: 25px 10px;
   font-weight: normal;
-  line-height: 1.7em;
+  line-height: 1.3em;
   min-height: 168px;  
   height:173px;
 }
@@ -2480,6 +2491,13 @@ div.pricing-start-free-trial{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.package-tooltip-4{
+    background: url(../images/pricing/package-tooltip-4.jpg?v=1.0) 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left:2px;
+}
+
 
 
 .qtip-1{
