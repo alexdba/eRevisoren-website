@@ -124,6 +124,7 @@ $socialMenuItems = [
     <?php endif; ?>
     
     <?= $this->render("../../config/google-analytics-tracking"); ?>
+    <?= $this->render("../../config/facebook-pixel-code"); ?>
   </head>
   <body>
     <div style="display:none;"><?= $this->render("../../config/google-remarketing"); ?></div>
@@ -220,7 +221,6 @@ $socialMenuItems = [
     </footer>
     <?php $this->endBody() ?>
     <?= $this->render("../../config/olark-chat"); ?>
-    <?= $this->render("../../config/facebook-pixel-code"); ?>
   </body>
 </html>
 <?php $this->endPage() ?>
