@@ -34,6 +34,13 @@ $(document).ready(function () {
         },
         style: { classes: 'qtip-3' }
     });
+    $('.qtip4').qtip({
+        position: {
+            my: 'top center',  // Position my top left...
+            at: 'bottom center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-4' }
+    });
 });
     //object for handling selecting price
     var priceSelect = {

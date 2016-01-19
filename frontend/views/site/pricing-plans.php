@@ -92,7 +92,7 @@ $this->registerCssFile(
                   </th>
                   <th>
                     <a href="#" 
-                       class="package package-special  btn-pricing-page qtip3" title="<?= Yii::t('app','Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.')?>">
+                       class="package package-special  btn-pricing-page qtip4" title="Laver du selv din bogføring, og har blot brug for hjælp til at afslutte regnskabet, så er dette pakken for dig. Vi sørger for at du kommer helt i hus med dit regnskab inklusiv beregning af skat og indberetning til myndighederne.">
                       <h4>
                         <span id="price_plus"></span>
                       </h4>
@@ -105,55 +105,55 @@ $this->registerCssFile(
                     <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
                     <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
                     <td class="text"><?= Yii::t('app','Free use of our easy-to-use App'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="even">
                     <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
                     <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
                     <td class="text"><?= Yii::t('app','Monthly Bookkeeping*'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="odd">
                     <td class="text"><?= Yii::t('app','Including 150 Annex per year <sup>1)</sup>'); ?></td>
                     <td class="text"><?= Yii::t('app','Including 150 Annex per year <sup>1)</sup>'); ?></td>
                     <td class="text"><?= Yii::t('app','Including 150 Annex per year <sup>1)</sup>'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="even">
                     <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
                     <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
                     <td class="text"><?= Yii::t('app','Unlimited accounting support'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="odd">
                     <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
                     <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
                     <td class="text"><?= Yii::t('app','Annual Tax Preparation'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="even">
                     <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
                     <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
                     <td class="text"><?= Yii::t('app','Online Archive of Receipts and Invoices'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="odd">
                     <td class="text"><?= Yii::t('app','Free use of our app for smartphones'); ?></td>
                     <td class="text"><?= Yii::t('app','Free use of our app for smartphones'); ?></td>
                     <td class="text"><?= Yii::t('app','Free use of our app for smartphones'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="even">
                     <td></td>
                     <td class="text"><?= Yii::t('app','Bank Reconciliation'); ?></td>
                     <td class="text"><?= Yii::t('app','Bank Reconciliation'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="odd">
                     <td></td>
                     <td></td>
                     <td class="text"><?= Yii::t('app','Tax Calculation'); ?></td>
-                    <td></td>
+                    <td class="text">&nbsp;</td>
                 </tr>
                 <tr class="even">
                     <td></td>
@@ -174,16 +174,11 @@ $this->registerCssFile(
                     <td class="text"><?= Yii::t('app','Tax Filing3'); ?></td>
                 </tr>
                 <tr>
-                    <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" 
-             class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
                 </tr>
-          
             </tbody>
         </table>
       </div>

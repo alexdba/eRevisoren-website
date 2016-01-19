@@ -1304,6 +1304,7 @@ input:focus {
     background-image:url(../images/home/price-plus-clean.jpg?v=1.5);
     background-repeat:no-repeat;
     background-position:center center;
+    margin-right   : -2px;
     padding-top: 96px;
     padding-right: 0;
     width:270px;
@@ -1934,6 +1935,7 @@ TABLE.one-two-three .dash{
 .prices thead th{
   color: white;
   text-align:center;
+  width: 500px;
 }
 
 .prices thead td{
@@ -2495,7 +2497,6 @@ div.pricing-start-free-trial{
     background: url(../images/pricing/package-tooltip-4.jpg?v=1.0) 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left:2px;
 }
 
 
@@ -2514,12 +2515,16 @@ div.pricing-start-free-trial{
     background-color: #68B02A;
     border-color: #31660A;
 }
-.qtip-1, .qtip-2,.qtip-3{
+.qtip-4{
+    background-color: #e03760;
+    border-color: #a90101;
+}
+.qtip-1, .qtip-2,.qtip-3,.qtip-4{
     padding:15px;
     border-radius:25px;
     max-width: 330px;
 }
-.qtip-1 .qtip-content,.qtip-2 .qtip-content,.qtip-3 .qtip-content{
+.qtip-1 .qtip-content,.qtip-2 .qtip-content,.qtip-3 .qtip-content,.qtip-4 .qtip-content{
     font-size: 17px;
     color:#fff;
     line-height:1.5em;

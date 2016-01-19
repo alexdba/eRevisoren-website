@@ -5,7 +5,7 @@
         font-size: 0.95em;
     }
     .prices .package{
-        width: 342px;
+        /*width: 342px;*/
     }
 }
 
@@ -40,18 +40,21 @@
     .menu-container {
       padding-top: 0;
     }
-    .package-light, .package-standard,.package-plus{
+    .package-light, .package-standard,.package-plus,.package-special{
         padding-top: 27px;
         padding-right: 1px;
     }
+    .package-plus{
+        margin:0;
+    }
     
     .package-tooltip {
-      font-size:13px;
+      font-size:11px;
       text-align: left;
-      padding: 15px 20px;
+      padding: 30px 10px;
       font-weight: normal;
      
-      line-height: 1.3em;
+      line-height: 1.2em;
       margin: 0 auto;
     }
     .package h4{
@@ -270,12 +273,12 @@
     }
 
     .package-tooltip {
-      font-size: 13px;
+      font-size: 11px;
       text-align: left;
-      padding: 15px 20px;
+      padding: 30px 10px;
       font-weight: normal;
      
-      line-height: 1.3em;
+      line-height: 1.2em;
       margin: 0 auto;
     }
 }
@@ -293,14 +296,18 @@
     }
     .prices .package{
        
-       /* height:153px;*/
+       height:153px;
     }
-    .package-light, .package-standard,.package-plus{
+    .package-light, .package-standard,.package-plus,.package-special{
         padding-top: 0px;
         padding-right: 0px;
     }
     .package h4{
         padding-top: 6px;
+    }
+    .prices tbody .text{
+        padding:5px 10px;
+        line-height: 1.4em;
     }
 }
 
@@ -536,7 +543,7 @@
     }
     .prices .package{
 	
-        width: 360px;
+        width: 120px;
         height:135px;
     }
     .package h4{
