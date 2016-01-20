@@ -56,6 +56,13 @@ $(document).ready(function () {
         },
         style: { classes: 'qtip-3' }
     });
+    $('.qtip4').qtip({
+        position: {
+            my: 'bottom center',  // Position my top left...
+            at: 'top center', // at the bottom right of...
+        },
+        style: { classes: 'qtip-4' }
+    });
     
 });
 

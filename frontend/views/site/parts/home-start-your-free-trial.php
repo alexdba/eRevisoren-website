@@ -12,8 +12,8 @@ use yii\helpers\Html;
       <h2 class="white-text"><?= Yii::t('app','AT A GREAT PRICE!')?></h2>
       <br/><br/>
     </div>
-    <div class="row">
-      <div class="col-sm-12 text-center">
+    <div class="row pricing-plans">
+      <div class="col-sm-3">
           <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
           <?= 
             Html::img(
@@ -21,6 +21,8 @@ use yii\helpers\Html;
               ["alt" => "Light Bookkeeping", "class" => "img-responsive qtip1", 'title'=>Yii::t('app','If you’re self-employed without a separate company bank account and only have a few monthly receipts and invoices, but still want to keep your books in order. Then this Package is right for you.')]);
           ?>
           </a>
+      </div>
+      <div class="col-sm-3 special">
           <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
           <?= 
             Html::img(
@@ -28,11 +30,22 @@ use yii\helpers\Html;
               ["alt" => "Standard Bookkeeping", "class" => "img-responsive mid qtip2", 'title'=>Yii::t('app','Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.')]);
           ?>
           </a>
+      </div>
+      <div class="col-sm-3">
           <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
           <?= 
             Html::img(
               Url::to("@web/frontend/assets/images/home/price-plus.jpg?v=1.7", true), 
               ["alt" => "Plus Bookkeeping", "class" => "img-responsive qtip3", 'title'=>Yii::t('app','Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.')]);
+          ?>
+          </a>
+      </div>
+      <div class="col-sm-3">
+          <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
+          <?= 
+            Html::img(
+              Url::to("@web/frontend/assets/images/home/price-special.jpg?v=1.7", true), 
+              ["alt" => "ÅRSAFSLUTNING", "class" => "img-responsive qtip4", 'title'=>Yii::t('app','Laver du selv din bogføring, og har blot brug for hjælp til at afslutte regnskabet, så er dette pakken for dig. Vi sørger for at du kommer helt i hus med dit regnskab inklusiv beregning af skat og indberetning til myndighederne.')]);
           ?>
           </a>
       </div>

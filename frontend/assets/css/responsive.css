@@ -1080,3 +1080,11 @@
         font-size: 38px;
     }
 }
+
+@media  (min-width: 768px) {
+    .pricing-plans>div{padding:0;}
+    .pricing-plans>.special{margin-top:-9px;}
+}
+@media  (max-width: 768px) {
+    .pricing-plans>.special{margin-top:0;}
+}
