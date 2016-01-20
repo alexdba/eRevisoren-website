@@ -65,7 +65,7 @@
 
 @media (min-width: 660px) and (max-width: 1200px){
     .intro h4.fullscreen-page-heading{
-      background-color: rgba(255, 255, 255, 0.9);
+      background-color: rgba(255, 255, 255, 0.8);
       padding: 10px;
     }
 }

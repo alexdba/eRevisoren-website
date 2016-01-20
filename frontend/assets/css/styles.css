@@ -1967,13 +1967,17 @@ TABLE.one-two-three .dash{
 #home #main-nav.scroll1 li a.callmeback-menu-item,#home #main-nav.scroll0 li a.callmeback-menu-item{
     color: #ffffff;
 }
+.callmeback-menu-item{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
 
 
 .navbar-inverse .navbar-nav>li>a.callmeback-menu-item,.callmeback-menu-item{
   background: #E41616;
   color:white;
   padding: 0px 8px;
-  border-radius: 0;
 }
 
 #home #main-nav.scroll0 li a.callmeback-menu-item{
