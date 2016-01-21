@@ -12,6 +12,8 @@
   Options -Indexes
 </IfModule>
 
+#Allow remote server monitoring
+RewriteRule ^(server-info-dk|server-status-dk) - [L]
 
 # Block access to "hidden" directories whose names begin with a period. This
 # includes directories used by version control systems such as Subversion or Git.
