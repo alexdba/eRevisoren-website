@@ -58,7 +58,7 @@ $(document).ready(function () {
         'selectDefinedPrice' : function(monthly){
             if(monthly){
                 price_light      = {'from':'', 'to':95 };
-                price_standard   = {'from':'', 'to':145};
+                price_standard   = {'from':'', 'to':195};
                 price_plus       = {'from':'', 'to':345};
                 button_highlight   = '#button_yearly';
                 button_unhighlight = '#button_monthly';
@@ -69,7 +69,7 @@ $(document).ready(function () {
             }else
             {//yearly
                 price_light      = {'from':95 , 'to':''};
-                price_standard   = {'from':145, 'to':''};
+                price_standard   = {'from':195, 'to':''};
                 price_plus       = {'from':345, 'to':''};
                 button_highlight   = '#button_monthly';
                 button_unhighlight = '#button_yearly';
