@@ -32,7 +32,7 @@ use yii\helpers\Html;
                   ["alt" => "Bookkeeping - How it works 1.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
-                <h4><?= Yii::t('app', 'Landsdækkende Service'); ?></h4>
+                <h4><?= Yii::t('app', 'Landsdækkende service'); ?></h4>
                 <p>
                   <?= Yii::t('app', 'eBogholderen servicerer 100-vis af små virksomheder over hele landet. Men vi er ikke større end at du får din helt personlige bogholder.'); ?>
                   
