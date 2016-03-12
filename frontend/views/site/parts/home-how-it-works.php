@@ -10,13 +10,13 @@ use yii\helpers\Html;
       <!-- SECTION TITLE -->
       <h6 class="dark-text" 
           style="font-size:50px;">
-        <?= Yii::t('app', 'How it works?'); ?>
+        <?= Yii::t('app', 'Hvorfor vælge eBogholderen'); ?>
         
       </h6>
 
       <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
       <h6>
-        <?= Yii::t('app', 'As simple as taking a picture'); ?>
+        <?= Yii::t('app', 'eBogholderen er Danmarks bedste bogholder hvis du er en lille virksomhed som lægger vægt på kvalitet og pris'); ?>
       </h6>
       
     </div>
@@ -28,13 +28,13 @@ use yii\helpers\Html;
         <div class="how-it-works-wrapper">
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step-1.jpg?v=1.2", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-1.jpg?v=1.4", true), 
                   ["alt" => "Bookkeeping - How it works 1.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
-                <h4><?= Yii::t('app', 'Take pictures of your receipts'); ?></h4>
+                <h4><?= Yii::t('app', 'Landsdækkende Service'); ?></h4>
                 <p>
-                  <?= Yii::t('app', 'Using the ClickBooks app simply take photos of your invoices and expenses'); ?>
+                  <?= Yii::t('app', 'eBogholderen servicerer 100-vis af små virksomheder over hele landet. Men vi er ikke større end at du får din helt personlige bogholder.'); ?>
                   
                 </p>
             </div>
@@ -44,13 +44,13 @@ use yii\helpers\Html;
         <div class="how-it-works-wrapper">
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step-2.jpg?v=1.3", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-2.jpg?v=1.4", true), 
                   ["alt" => "Bookkeeping - How it works 2.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
-                <h4><?= Yii::t('app', 'A dedicated Bookkeeper will do the work'); ?></h4>
+                <h4><?= Yii::t('app', 'Specialister i små virksomheder'); ?></h4>
                 <p>
-                  <?= Yii::t('app', 'Your ClickBooks bookkeeper will categorize, review and reconcile your books against your bank statements'); ?>
+                  <?= Yii::t('app', 'Alle vores bogholdere har mange års erfaring og er specialiserede i håndtering af små virksomheder, hvilket giver dig mange fordele.'); ?>
                 </p>
             </div>
         </div>
@@ -59,13 +59,13 @@ use yii\helpers\Html;
         <div class="how-it-works-wrapper">
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step-3.jpg?v=1.2", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/step-3.jpg?v=1.4", true), 
                   ["alt" => "Bookkeeping - How it works 3.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
-                <h4><?= Yii::t('app', 'Get back to work'); ?><br/></h4>
+                <h4><?= Yii::t('app', 'Så meget sparer du'); ?><br/></h4>
                 <p>
-                  <?= Yii::t('app', 'Receive monthly statements and tax-ready financials without having to play an integral role in the bookkeeping process'); ?>
+                  <?= Yii::t('app', 'Med eBogholderen er du garanteret landets bedste pris. Vi er ofte 2-3 gange billigere end de almindelige revisorer. Læs videre om vores services og priser, og find ud af hvor meget du kan spare.'); ?>
                 </p>
             </div>
         </div>
