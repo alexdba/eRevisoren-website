@@ -41,10 +41,10 @@ use yii\captcha\Captcha;
               <a href="<?= Yii::$app->homeUrl ?>#" id="watch-button" class="btn hidden">
                 <i class="glyphicon glyphicon-play-circle"></i><?= Yii::t('app', 'Watch The Video'); ?>
               </a>
-              <a href="#" class="btn btn-primary btn-front-page">
+              <a href="#" class="btn btn-primary btn-front-page" onclick="fbq('track', 'Lead');">
                 <?= Yii::t('app', 'Start your FREE trial'); ?>
               </a>
-              <a href="#" id="callme-button" class="btn">
+              <a href="#" id="callme-button" class="btn" onclick="fbq('track', 'Lead');">
                 <?= Yii::t('app', 'Call Me Back'); ?>
               </a>
           </div>
