@@ -495,3 +495,25 @@ h2.subheading{
 .small-phone{
   margin-right:6px;
 }
+
+.trustpilot{height: 292px;background:#7fba4c url(../images/home/trustpilot-bg.jpg) top center no-repeat;color:#fff;padding:40px 0;
+    font-family: 'Lato';font-weight: 400;}
+.trustpilot h3{font-size: 45px;margin-bottom:40px;}
+.trustpilot .lines ul{margin-bottom: 0;}
+.trustpilot .lines li big{font-size: 20px;}
+.trustpilot .lines li{margin-bottom:20px;}
+.trustpilot .lines li small{margin-left: 20px;font-size:14px;}
+.trustpilot .anmeldelser{max-width: 300px;display: inline-block;}
+
+@media  (max-width: 1200px) {
+    .trustpilot{padding: 30px 0;}
+}
+@media  (max-width: 905px) {
+    .trustpilot h3{margin-bottom: 25px;}
+    .trustpilot .lines li{margin-bottom:15px;}
+}
+@media  (max-width: 768px) {
+    .trustpilot{min-height: 292px;height: auto;}
+    .trustpilot .anmeldelser{margin-bottom: 15px;}
+    .trustpilot .lines li{margin-bottom:10px;}
+}
