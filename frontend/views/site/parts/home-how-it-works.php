@@ -59,7 +59,7 @@ use yii\helpers\Html;
         <div class="how-it-works-wrapper">
               <?= 
                 Html::img(
-                  Url::to("@web/frontend/assets/images/how-it-works/step-3.jpg?v=1.4", true), 
+                  Url::to("@web/frontend/assets/images/how-it-works/billig-bogholder.jpg", true), 
                   ["alt" => "Bookkeeping - How it works 3.", "class" => "img-responsive"]);
               ?>
             <div class="how-it-works-text-wrapper">
