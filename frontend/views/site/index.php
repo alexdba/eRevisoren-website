@@ -23,7 +23,9 @@ $model = new CustomerCases();
 ?>
 <?= $this->render("parts/home-how-it-works"); ?>
 <?= $this->render("parts/home-trustpilot"); ?>
+<?= $this->render("parts/home-start-your-free-trial"); ?>
+<?= $this->render("parts/home-cases"); ?>
 <?= $this->render("parts/home-separator"); ?>
 <?= $this->render("parts/home-features"); ?>
-<?= $this->render("parts/home-start-your-free-trial"); ?>
+<?= $this->render("parts/home-app"); ?>
 <?= $this->render("parts/home-faq"); ?>

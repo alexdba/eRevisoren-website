@@ -3,7 +3,7 @@ use yii\helpers\Url;
 use yii\helpers\Html;
 ?>
 <section class="cases" id="cases">
-    <div class="starting-quote-div">
+    <!--div class="starting-quote-div">
         <?= 
             Html::img(
               Url::to("@web/frontend/assets/images/home/starting-quote.png", true), 
@@ -32,7 +32,7 @@ use yii\helpers\Html;
               Url::to("@web/frontend/assets/images/home/ending-quote.png", true), 
               ["alt" => "ending quote", "class" => "ending-quote"]);
         ?>
-    </div>
+    </div-->
     <div class="container clickbooks-cheap-bookkeepers">
         <br/><br/><br/><br/>
         <!-- SECTION HEADER -->
