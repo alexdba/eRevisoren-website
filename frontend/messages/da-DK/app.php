@@ -50,7 +50,7 @@ return [
     'Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.' => 'Hvorfor overhovedet bruge en dyr revisor hvis det ikke er nødvendigt. Hvis vi i forvejen har lavet din bogføring, hvorfor så ikke også lade os klare resten af Skat, Moms og indberetning for kun en lille smule ekstra om måneden.',
     
     'A revolutionary service that helps 1000\'s of small businesses every day' => 'En revolutionerende service der hjælper 100vis af små virksomheder hver dag',
-    'AT A GREAT PRICE!' => 'DECEMBER TILBUD – FANTASTISK PRIS',
+    'AT A GREAT PRICE!' => 'SOMMER TILBUD – FANTASTISK PRIS',
     'What\'s included?' => 'Hvilken pakke er den rigtige for mig?',
     'Compare plans' => 'SAMMENLIGN PAKKER',
     
@@ -78,9 +78,9 @@ return [
     'The security and privacy of your data is our highest priority. To ensure your safety we have invested in the latest state-of-the art technologies used by large banking and leading financial institutions.'=>'Sikkerhed og fortrolighed af dine data er vores højeste prioritet. For at sikre din sikkerhed benytter vi de samme sikkerhedsteknologier, som anvendes af banker og finansielle institutioner.',
     'It Saves Time'=>'Du sparer tid',
     'With ClickBooks your time spent organizing your receipt and invoices have just been dramatically reduced. Not only the time you spend on organizing but also the time you spend worrying about it.'=>'Med eBogholderen er den tid du bruger på at organisere og opbevare dine bilag blevet kraftigt reduceret. Ikke bare den tid du bruger på at håndtere dine bilag, men også den tid du bruger på at bekymre dig om dine bilag.',
-    'It\'s Incredibly Easy to Use'=>'Det er Utroligt Simpelt at Bruge',
+    'It\'s Incredibly Easy to Use'=>'Det er utroligt simpelt at bruge',
     'You\'ll never find a service that\'s easier to use than Clickbooks. Use our simple app to take pictures of your receipts and invoices and just let us take it from there. You\'re only 5 minutes away from being fully and finally out of the bookkeeping business.'=>'Du kommer ikke til at finde en service der er lettere at bruge end eBogholderen. Brug vores simple App til at tage billeder af dine bilag, og lad os klare den derfra. Du er kun 5 minutter væk fra at have forsimplet dit liv gevaldigt.',
-    'It\'s Always With You'=>'Altid Med Dig',
+    'It\'s Always With You'=>'Altid med dig',
     'With the ClickBooks App it\'s like always having your bookkeeper available and by your side. You never have to worry about managing and storing your invoices and receipts. You can always go to the personal Picture Archive online and print them.'=>'Med eBogholderens App er det som om du altid har din bogholder med dig. Du behøver aldrig at skulle bekymre dig om at skulle gemme og opbevare dine bilag når du er på farten. Og når du har brug for at genfinde dine kvitteringer, går du bare ind på dit personlige bilagsarkiv online og finder dem frem.',
     
     'FAQ'=>'FAQ',

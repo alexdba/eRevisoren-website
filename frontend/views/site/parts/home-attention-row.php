@@ -18,7 +18,7 @@ use yii\captcha\Captcha;
             <h4 class="fullscreen-page-heading">
               <?= Yii::t('app', 'Vi laver din bogføring, moms- og årsregnskab for kun 3.490 per år.'); ?>
               <div class="intro_sub_heading">
-                <?= Yii::t('app', 'Pris garanti - Danmarks billigste certificerede bogholder'); ?>
+                <?= Yii::t('app', 'Prisgaranti - Danmarks billigste certificerede bogholder'); ?>
               </div>
             </h4>
             <h4 class="mobile-page-heading">
