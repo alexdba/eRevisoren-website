@@ -10,7 +10,7 @@ use yii\helpers\Url;
             <div class="col-sm-3 col-md-4 text-center">
                 <img src="<?=Url::to('/frontend/assets/images/home/trustpilot-anmeldelser.jpg')?>" alt="" class="img-responsive anmeldelser"/>
             </div>
-            <div class="col-sm-7 col-sm-offset-2 col-md-7 col-md-offset-1 text-left lines">
+            <div class="col-sm-7 col-sm-offset-2 col-md-7 col-md-offset-1 lines">
                 <ul class="list-unstyled text wow fadeInRight animated separator-line2">
                     <li><big><i>”Vi er 110% tilfredse med eBogholderen”</i></big> <small>Tommy Madsen, Logmar Camera Solution</small></li>
                     <li style="margin-left: 25px;"><big><i>“Dejlig menneskelig og hjælpsom support”</i></big> <small>Mikkel Preisler, Preisler Group</small></li>

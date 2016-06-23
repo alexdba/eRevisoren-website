@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  font-family : 'Lato', sans-serif !important;
+  font-family : 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-size   : 14px;
   color       : #808080;
   font-weight : normal;
@@ -97,7 +97,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1,h2 {
-  font-family    : 'Montserrat', 'sans-serif';
   font-weight    : 700;
   text-transform : uppercase;
 }
@@ -398,7 +397,6 @@ input:focus {
     font-weight:300;
     font-size: 25px;
     line-height: 1em;
-    font-family: 'Lato';
 }
 .section-header h6 {
   font-weight: 400;
@@ -1273,7 +1271,6 @@ input:focus {
   text-transform: uppercase;
   margin: 0px;
   font-weight: bold;
-  font-family: 'Varela', sans-serif;
   background-size: 100%;
 }
 
@@ -1363,7 +1360,6 @@ input:focus {
   line-height: 0.7em;
   text-decoration: none;
   height: 130px;
-  font-family: 'Lato';
   font-weight: bold;
   padding-top: 15px;
   margin-left: 21px;
@@ -1390,7 +1386,6 @@ input:focus {
     position: relative;
     left: -7px;
     width: 1px;
-    font-family: 'Varela';
     
     /* Safari */
     -webkit-transform: rotate(-90deg);
@@ -1596,7 +1591,6 @@ a.package:active, a.package:visited, a.package:link {
 .newsletter h3 {
   font-size: 28px;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -1645,7 +1639,6 @@ a.package:active, a.package:visited, a.package:link {
   padding-top: 15px;
 }
 .feedback-box .client-info .client-name {
-  font-family: 'Homemade Apple', serif;
   color: #404040;
 }
 .feedback-box .client-info .client-company {
@@ -2047,20 +2040,17 @@ TABLE.one-two-three .dash{
 .separator h3.separator-line1{
     font-size: 45px;
     font-weight: 300;
-    font-family: 'Lato';
     line-height: 1em;
 }
 
 .separator h2.separator-line2{
     font-size: 27px !important;
-    font-family: 'Lato';
     text-transform: none;
     line-height: 1em;
 }
 .separator h2.separator-line3{
     font-size: 27px !important;
     font-weight: bold;
-    font-family: 'Lato';
     line-height: 1em;
 }
 
