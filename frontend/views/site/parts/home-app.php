@@ -16,7 +16,7 @@ use yii\helpers\Url;
                     <li>Den personlige bogholder klarer resten</li>
                 </ol>
                 <p class="lead">eBogholderens App er gratis for alle vores kunder og kan downloades på Google play eller Apple App Store.</p>
-                <p>
+                <p class="links">
                     <a href="https://itunes.apple.com/dk/app/ebogholderen/id553446216?l=da&mt=8" target="_blank"><img src="<?=Url::to('@web/assets/images/apple-play.jpg')?>" alt="App Store"/></a>
                     <a href="https://play.google.com/store/apps/details?id=dk.ebogholderen.images&hl=dk" target="_blank"><img src="<?=Url::to('@web/assets/images/google-play-store.jpg')?>" alt="Google play"/></a>
                 </p>
