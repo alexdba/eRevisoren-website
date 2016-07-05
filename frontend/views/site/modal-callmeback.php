@@ -11,7 +11,7 @@ use yii\bootstrap\Modal;
 $model = new CallMeBackForm();
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.callmeback.js?v=1.0"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.callmeback.js?v=1.1"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 

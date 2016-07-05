@@ -8,7 +8,7 @@ use yii\captcha\Captcha;
 $this->title = 'eBogholderen - Kontakt Os';
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=1.3"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=1.4"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 

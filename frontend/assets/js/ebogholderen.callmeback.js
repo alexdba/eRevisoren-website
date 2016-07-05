@@ -18,8 +18,6 @@ $(document).ready(function () {
 	$('#callme-button').on('click', function(e){
         calmeback.showCallMeBackForm();
 	});
-	
-
 
 });
     //handle CallMeBack
@@ -77,6 +75,9 @@ $(document).ready(function () {
                     .html('Close')
                     .on('click', function(){$('#modalCallMeBack').modal('hide');});
                     
+                // show receipt popup
+                $('#modalCallMeBack').modal('hide');
+                $('#modalReceipt').modal('show');
             }
     	}
     };
