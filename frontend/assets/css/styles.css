@@ -2586,24 +2586,31 @@ div.pricing-start-free-trial{
     font-size: 50px;
 }
 /*modal signup,callmeback*/
-#modalSignup .modal-header,#modalCallMeBack .modal-header {
+#modalSignup .modal-header,#modalCallMeBack .modal-header,#modalReceipt .modal-header {
     background: #68B02A;
     filter:none;
 }
-#modalSignup .modal-header .close,#modalCallMeBack .modal-header .close{
+#modalSignup .modal-header .close,#modalCallMeBack .modal-header .close,#modalReceipt .modal-header .close{
     color:#fff;
     opacity: 0.9;
 }
 
-#modalSignup .modal-content,#modalCallMeBack .modal-content{
+#modalSignup .modal-content,#modalCallMeBack .modal-content,#modalReceipt .modal-content{
     background: rgba(0, 0, 0, 0.7);
 }
 
-#modalSignup .section-header,#modalCallMeBack .section-header{
+#modalSignup .section-header,#modalCallMeBack .section-header,#modalReceipt .section-header{
     padding-bottom: 5px;
 }
 
-#modalSignup .modal-body,#modalCallMeBack .modal-body{
+#modalSignup .modal-body,#modalCallMeBack .modal-body,#modalReceipt .modal-body{
+    color: #fff;
+}
+#modalReceipt p{
+    margin:0 10px 10px;
+    font-size:16px;
+}
+#modalReceipt .modal-header{
     color: #fff;
 }
 #signup-form .text,#callmeback-form .text{

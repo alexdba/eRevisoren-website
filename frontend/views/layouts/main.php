@@ -131,6 +131,7 @@ $socialMenuItems = [
     <?php $this->beginBody() ?>
     <?= $this->render("../site/modal-signup"); ?>
     <?= $this->render("../site/modal-callmeback"); ?>
+    <?= $this->render("../site/modal-receipt"); ?>
     <header id="home" class="header<?= (isset($this->params["attention_row"]) ? " with-attention-row" : ""); ?>">
       <div id="main-nav" class="navbar navbar-inverse bs-docs-nav<?= (isset($this->params["attention_row"]) ? "" : " fixed"); ?>" role="banner">
         <div class="container">

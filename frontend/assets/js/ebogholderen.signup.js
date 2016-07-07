@@ -125,6 +125,9 @@ $(document).ready(function () {
                     .html('Close')
                     .on('click', function(){$('#modalSignup').modal('hide');});
                     
+                // show receipt popup
+                $('#modalSignup').modal('hide');
+                $('#modalReceipt').modal('show');
             }
     	}
     };

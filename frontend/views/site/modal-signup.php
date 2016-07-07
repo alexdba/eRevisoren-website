@@ -12,7 +12,7 @@ use yii\bootstrap\Modal;
 $model = new SignupForm();
 
 $this->registerJsFile(
-  Url::to("@web/frontend/assets/js/ebogholderen.signup.js?v=1.5"), [
+  Url::to("@web/frontend/assets/js/ebogholderen.signup.js?v=1.6"), [
     "depends" => "\\frontend\\assets\\AppAsset"
   ]);
 

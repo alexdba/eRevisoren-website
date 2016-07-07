@@ -90,6 +90,9 @@ $(document).ready(function () {
                 ga('send', 'event' , 'Forms' , 'Submit' , form.attr('id') );
                 //log facebook conversion
                 facebookConversionPixel('0.01');
+                    
+                // show receipt popup
+                $('#modalReceipt').modal('show');
 	        })
 	        .fail(function() {
 	            console.log("server error");
