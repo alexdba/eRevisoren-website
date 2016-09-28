@@ -147,7 +147,7 @@ use yii\helpers\Html;
             <?= Yii::t('app','Receive a Free Income Statement'); ?>
         </div>
       </div>    
-        <a href="#" class="btn btn-primary start-trial-button btn-front-page">
+        <a href="#" class="btn btn-primary start-trial-button btn-front-page" onclick = "fbq('track', 'InitiateCheckout');">
             <?= Yii::t('app','Start Your Free Trial'); ?>
         </a>
 
