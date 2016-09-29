@@ -60,7 +60,7 @@ use yii\helpers\Html;
   </div>
  </div>
   <div class='pricing-start-free-trial text-center'>
-    <a href='#'
+    <a href='#' onclick = "fbq('track', 'InitiateCheckout');"
        class='btn btn-lg btn-primary start-trial-button btn-front-page'>
         <?= Yii::t('app', 'Start your FREE trial'); ?>
     </a>

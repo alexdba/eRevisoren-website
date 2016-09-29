@@ -78,7 +78,7 @@ Modal::begin([
                 	<br class="clear"/> 
                 	<div id="notice"></div>
     	
-                    <div class="col-lg-12 text-right"><?= Html::submitButton(Yii::t('app','Sign Up'), ['class' => 'btn btn-primary btn-modal-signup', 'name' => 'signup-button']) ?></div>
+                    <div class="col-lg-12 text-right"><?= Html::submitButton(Yii::t('app','Sign Up'), ['class' => 'btn btn-primary btn-modal-signup', 'name' => 'signup-button', 'onclick'=>"fbq('track', 'CompleteRegistration');"]) ?></div>
                     <br/><br/>
                 </div>
             <?php ActiveForm::end(); ?>

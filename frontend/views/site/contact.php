@@ -61,7 +61,7 @@ $this->params["html_head_appendix"] = file_get_contents( dirname(__FILE__) . '/.
 
                     <div class="form-group right">
                     	<br/>
-                        <?= Html::submitButton(Yii::t('app','Submit Form'), ['class' => 'btn btn-primary', 'name' => 'contact-button', 'onclick' => "fbq('track', 'Lead');"]) ?>
+                        <?= Html::submitButton(Yii::t('app','Submit Form'), ['class' => 'btn btn-primary', 'name' => 'contact-button', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"]) ?>
                     </div>
                     <br class="clear"/>
                     <span id="notice"></span>
