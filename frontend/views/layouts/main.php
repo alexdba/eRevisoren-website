@@ -8,6 +8,8 @@ use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use frontend\widgets\Alert;
 
+$this->registerMetaTag(['name' => 'robots', 'content' => 'noindex,nofollow']);
+
 /* @var $this \yii\web\View */
 /* @var $content string */
 $this->registerCssFile(
