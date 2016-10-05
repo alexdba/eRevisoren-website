@@ -34,10 +34,10 @@ $mainMenuItems = [
    'linkOptions' => ['class'=>'external' . (Url::to(["site/contact"])==$_SERVER['REQUEST_URI']?' current':'')] ],
   ['label'       => Yii::t('app', 'Free Trial'), 
    'url'         => "#",
-   'linkOptions' => ['class' => 'signup-menu-item external', 'onclick' => "fbq('track', 'Lead');"] ],
+   'linkOptions' => ['class' => 'signup-menu-item external', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"] ],
   ['label'       => Yii::t('app', 'Call Me Back'), 
    'url'         => "#",
-   'linkOptions' => ['class' => 'callmeback-menu-item external', 'onclick' => "fbq('track', 'Lead');"] ],
+   'linkOptions' => ['class' => 'callmeback-menu-item external', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"] ],
   ['label'       => Yii::t('app', 'Login'), 
    'url'         => "http://www.ebogholderen.dk/Auth.php?action=login",
    'linkOptions' => ['class' => 'external', 'target' => '_blank'] ],
@@ -53,13 +53,13 @@ $mainMenuItemsMobileVersion = [
    'linkOptions' => ['class'=>'external'] ],
   ['label'       => Yii::t('app', 'Call Me Back'), 
    'url'         => "#",
-   'linkOptions' => ['class' => 'callmeback-menu-item mobile-menu-item external', 'onclick' => "fbq('track', 'Lead');"] ],
+   'linkOptions' => ['class' => 'callmeback-menu-item mobile-menu-item external', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"] ],
   ['label'       => Yii::$app->params['contactPhone'], 
    'url'         => 'tel:' . str_replace('-','',Yii::$app->params['contactPhone']),
    'linkOptions' => ['class'=>'external mobile-phone'] ],
   ['label'       => Yii::t('app', 'Free Trial'), 
    'url'         => "#",
-   'linkOptions' => ['class' => 'signup-menu-item external', 'onclick' => "fbq('track', 'Lead');"] ],
+   'linkOptions' => ['class' => 'signup-menu-item external', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"] ],
 ];
 
 $companyMenuItems = [
