@@ -50,7 +50,7 @@ return [
     'Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.' => 'Hvorfor overhovedet bruge en dyr revisor hvis det ikke er nødvendigt. Hvis vi i forvejen har lavet din bogføring, hvorfor så ikke også lade os klare resten af Skat, Moms og indberetning for kun en lille smule ekstra om måneden.',
     
     'A revolutionary service that helps 1000\'s of small businesses every day' => 'En revolutionerende service der hjælper 100vis af små virksomheder hver dag',
-    'AT A GREAT PRICE!' => 'SOMMER TILBUD – FANTASTISK PRIS',
+    'AT A GREAT PRICE!' => 'EFTERÅRS TILBUD – FANTASTISK PRIS',
     'What\'s included?' => 'Hvilken pakke er den rigtige for mig?',
     'Compare plans' => 'SAMMENLIGN PAKKER',
     
