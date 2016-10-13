@@ -54,13 +54,13 @@ use yii\helpers\Html;
         <br/><br/>
       <div class="col-sm-12 text-center pricing_info">
         <?= Yii::t('app','What\'s included?')?><br/>
-        <a href='<?= Url::to(["site/pricing-plans"]); ?>'><?= Yii::t('app','Compare plans')?></a>
+        <a href='<?= Url::to(["site/pricing-plans"]); ?>' onclick="ga('send','event','Forside','Sammenlign pakker');"><?= Yii::t('app','Compare plans')?></a>
       </div>
     </div>
   </div>
  </div>
   <div class='pricing-start-free-trial text-center'>
-    <a href='#' onclick = "fbq('track', 'InitiateCheckout');"
+    <a href='#' onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Forside','Prøv gratis');"
        class='btn btn-lg btn-primary start-trial-button btn-front-page'>
         <?= Yii::t('app', 'Start your FREE trial'); ?>
     </a>

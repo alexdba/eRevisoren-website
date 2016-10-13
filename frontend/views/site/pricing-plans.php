@@ -174,10 +174,10 @@ $this->registerCssFile(
                     <td class="text"><?= Yii::t('app','Tax Filing3'); ?></td>
                 </tr>
                 <tr>
-                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
-                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Priser Siden','Prøv gratis');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Priser Siden','Prøv gratis');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Priser Siden','Prøv gratis');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
+                    <td><a href="#" class="btn btn-primary product-button-green btn-pricing-page" onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Priser Siden','Prøv gratis');"><?= Yii::t('app','Start Your Free Trial'); ?></a></td>
                 </tr>
             </tbody>
         </table>
