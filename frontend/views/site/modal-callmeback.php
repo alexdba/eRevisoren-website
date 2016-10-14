@@ -38,7 +38,7 @@ Modal::begin([
                 	
                 	<div id="notice"></div>
     	            <br/>
-                    <div class="col-lg-12"><?= Html::submitButton('SEND', ['class' => 'btn btn-primary btn-modal-callmeback', 'name' => 'callmeback-button', 'onclick'=>"fbq('track', 'CompleteRegistration');"]) ?></div>
+                    <div class="col-lg-12"><?= Html::submitButton('SEND', ['class' => 'btn btn-primary btn-modal-callmeback', 'name' => 'callmeback-button', 'onclick'=>"fbq('track', 'CompleteRegistration'); ga('send','event','Send','Ring mig op');"]) ?></div>
                     <br/><br/>
                 </div>
             <?php ActiveForm::end(); ?>

@@ -22,20 +22,20 @@ use yii\helpers\Html;
           ?>
           </a>
       </div>
-      <div class="col-sm-3 special">
-          <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
-          <?= 
-            Html::img(
-              Url::to("@web/frontend/assets/images/home/price-standard.jpg?v=1.7", true), 
-              ["alt" => "Standard Bookkeeping", "class" => "img-responsive mid qtip2", 'title'=>Yii::t('app','Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.')]);
-          ?>
-          </a>
-      </div>
       <div class="col-sm-3">
           <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
           <?= 
             Html::img(
-              Url::to("@web/frontend/assets/images/home/price-plus.jpg?v=1.7", true), 
+              Url::to("@web/frontend/assets/images/home/billig-bogholder-pris.jpg?v=1.7", true), 
+              ["alt" => "Standard Bookkeeping", "class" => "img-responsive mid qtip2", 'title'=>Yii::t('app','Never miss a receipt or tax deduction. This package will pay for itself while giving you peace of mind in the process. Let us do the grunt work (cheaply), and leave only the taxes to your CPA or Tax consultant.')]);
+          ?>
+          </a>
+      </div>
+      <div class="col-sm-3 special">
+          <a href="<?= Url::to(["site/pricing-plans"]); ?>" class="pricing-img" >
+          <?= 
+            Html::img(
+              Url::to("@web/frontend/assets/images/home/bogholder-indberetning.jpg?v=1.7", true), 
               ["alt" => "Plus Bookkeeping", "class" => "img-responsive qtip3", 'title'=>Yii::t('app','Why even pay a CPA or Tax Consultant if you don\'t have to. If your books are simple then so is your tax filing. Let us handle it all for just a little extra a month.')]);
           ?>
           </a>
@@ -54,13 +54,13 @@ use yii\helpers\Html;
         <br/><br/>
       <div class="col-sm-12 text-center pricing_info">
         <?= Yii::t('app','What\'s included?')?><br/>
-        <a href='<?= Url::to(["site/pricing-plans"]); ?>'><?= Yii::t('app','Compare plans')?></a>
+        <a href='<?= Url::to(["site/pricing-plans"]); ?>' onclick="ga('send','event','Forside','Sammenlign pakker');"><?= Yii::t('app','Compare plans')?></a>
       </div>
     </div>
   </div>
  </div>
   <div class='pricing-start-free-trial text-center'>
-    <a href='#' onclick = "fbq('track', 'InitiateCheckout');"
+    <a href='#' onclick = "fbq('track', 'InitiateCheckout'); ga('send','event','Forside','Prøv gratis');"
        class='btn btn-lg btn-primary start-trial-button btn-front-page'>
         <?= Yii::t('app', 'Start your FREE trial'); ?>
     </a>
