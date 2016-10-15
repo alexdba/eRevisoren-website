@@ -17,8 +17,8 @@ use yii\helpers\Url;
                 </ol>
                 <p class="lead">eBogholderens App er gratis for alle vores kunder og kan downloades på Google play eller Apple App Store.</p>
                 <p class="links">
-                    <a href="https://itunes.apple.com/dk/app/ebogholderen/id553446216?l=da&mt=8" target="_blank" onclick="ga('send','event','Forside','Apple Store');"><img src="<?=Url::to('@web/assets/images/apple-play.jpg')?>" alt="App Store"/></a>
-                    <a href="https://play.google.com/store/apps/details?id=dk.ebogholderen.images&hl=dk" target="_blank" onclick="ga('send','event','Forside','Google Store');"><img src="<?=Url::to('@web/assets/images/google-play-store.jpg')?>" alt="Google play"/></a>
+                    <a href="https://itunes.apple.com/dk/app/ebogholderen/id553446216?l=da&mt=8" target="_blank"><img src="<?=Url::to('@web/assets/images/apple-play.jpg')?>" alt="App Store"/></a>
+                    <a href="https://play.google.com/store/apps/details?id=dk.ebogholderen.images&hl=dk" target="_blank"><img src="<?=Url::to('@web/assets/images/google-play-store.jpg')?>" alt="Google play"/></a>
                 </p>
             </div>
         </div>

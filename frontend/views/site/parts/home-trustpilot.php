@@ -8,7 +8,7 @@ use yii\helpers\Url;
         </h3>
         <div class="row">
             <div class="col-sm-3 col-md-4 text-center">
-                <img src="<?=Url::to('/frontend/assets/images/home/trustpilot-anmeldelser.jpg?2')?>" alt="" class="img-responsive anmeldelser"/>
+                <img src="<?=Url::to('/frontend/assets/images/home/trustpilot-anmeldelser.jpg')?>" alt="" class="img-responsive anmeldelser"/>
             </div>
             <div class="col-sm-7 col-sm-offset-2 col-md-7 col-md-offset-1 lines">
                 <ul class="list-unstyled text wow fadeInRight animated separator-line2">
