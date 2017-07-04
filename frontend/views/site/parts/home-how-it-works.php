@@ -10,13 +10,13 @@ use yii\helpers\Html;
       <!-- SECTION TITLE -->
       <h6 class="dark-text" 
           style="font-size:50px;">
-        <?= Yii::t('app', 'Hvorfor vælge eBogholderen'); ?>
+        <?= Yii::t('app', 'Hvorfor vælge eRevisoren'); ?>
         
       </h6>
 
       <!-- SHORT DESCRIPTION ABOUT THE SECTION -->
       <h6>
-        <?= Yii::t('app', 'eBogholderen er Danmarks bedste bogholder hvis du er en lille virksomhed som lægger vægt på kvalitet og pris'); ?>
+        <?= Yii::t('app', 'eRevisoren er Danmarks bedste revisor hvis du er en lille virksomhed som lægger vægt på kvalitet og pris'); ?>
       </h6>
       
     </div>
@@ -34,7 +34,7 @@ use yii\helpers\Html;
             <div class="how-it-works-text-wrapper">
                 <h4><?= Yii::t('app', 'Landsdækkende service'); ?></h4>
                 <p>
-                  <?= Yii::t('app', 'eBogholderen servicerer 100-vis af små virksomheder over hele landet. Men vi er ikke større end at du får din helt personlige bogholder.'); ?>
+                  <?= Yii::t('app', 'eRevisoren servicerer 100-vis af små virksomheder over hele landet. Men vi er ikke større end at du får din helt personlige revisor.'); ?>
                   
                 </p>
             </div>
@@ -50,7 +50,7 @@ use yii\helpers\Html;
             <div class="how-it-works-text-wrapper">
                 <h4><?= Yii::t('app', 'Specialister i små virksomheder'); ?></h4>
                 <p>
-                  <?= Yii::t('app', 'Alle vores bogholdere har mange års erfaring og er specialiserede i håndtering af små virksomheder, hvilket giver dig mange fordele.'); ?>
+                  <?= Yii::t('app', 'Alle vores revisorer har mange års erfaring og er specialiserede i håndtering af små virksomheder, hvilket giver dig mange fordele.'); ?>
                 </p>
             </div>
         </div>
@@ -65,7 +65,7 @@ use yii\helpers\Html;
             <div class="how-it-works-text-wrapper">
                 <h4><?= Yii::t('app', 'Så meget sparer du'); ?><br/></h4>
                 <p>
-                  <?= Yii::t('app', 'Med eBogholderen er du garanteret landets bedste pris. Vi er ofte 2-3 gange billigere end de almindelige revisorer. Læs videre om vores services og priser, og find ud af hvor meget du kan spare.'); ?>
+                  <?= Yii::t('app', 'Med eRevisoren er du garanteret landets bedste pris. Vi er ofte 2-3 gange billigere end de almindelige revisorer. Læs videre om vores services og priser, og find ud af hvor meget du kan spare.'); ?>
                 </p>
             </div>
         </div>

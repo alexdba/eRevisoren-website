@@ -19,7 +19,7 @@ $model = new NewsletterForm();
         <div class="home-attention-row-subcontainer">
           <div id="newsletter-container">
                <?php $form = ActiveForm::begin(['id' => 'newsletter-form', 'action' => ['site/newsletter'], 'options' => ['class' => 'ajax_form' ] ]); ?>
-                  <h5 class="text-center h4 newsletter-header">Hold dig opdateret på eBogholderen med fremtidige tilbud</h5>
+                  <h5 class="text-center h4 newsletter-header">Hold dig opdateret på eRevisoren med fremtidige tilbud</h5>
                   <div class="col-md-12"><?= $form->field($model, 'name',['inputOptions'=>['placeholder'=>'Navn*']])->label(false) ?></div>
                   <div class="col-md-12"><?= $form->field($model, 'email',['inputOptions'=>['placeholder'=>'E-mail*']])->label(false) ?></div>
     

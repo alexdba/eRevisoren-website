@@ -1,7 +1,7 @@
-eBogholderen.dk
+eRevisoren.dk
 =============
 
-This is the main repository for the eBogholderen.dk website (http://eBogholderen.dk).
+This is the main repository for the eRevisoren.dk website (http://eRevisoren.dk).
 This application is built using the Yii 2 framework, and based on the [Yii 2 Practical
 Application Template](https://github.com/kartik-v/yii2-app-practical).
 

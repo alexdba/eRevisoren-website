@@ -6,8 +6,8 @@ use frontend\models\CustomerCases;
 
 $modelCallMeBackForm = new CallMeBackForm();
 
-$this->title = 'Danmarks Billigste Bogholder 2016';
-$this->registerMetaTag(['name' => 'description', 'content' => 'Certificerede bogholdere / revisorer laver din bogføring, moms- og årsregnskab for kun 3.490 per år. Pris- og Tilfredshedsgaranti.']);
+$this->title = 'Danmarks Billigste Revisor 2016';
+$this->registerMetaTag(['name' => 'description', 'content' => 'Certificerede revisorer / revisorer laver din bogføring, moms- og årsregnskab for kun 3.490 per år. Pris- og Tilfredshedsgaranti.']);
 $this->registerJsFile(
   Url::to("@web/frontend/assets/js/home.private.js?v=1.3"), [
     "depends" => "\\frontend\\assets\\AppAsset"

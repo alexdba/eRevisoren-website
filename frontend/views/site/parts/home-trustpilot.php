@@ -12,7 +12,7 @@ use yii\helpers\Url;
             </div>
             <div class="col-sm-7 col-sm-offset-2 col-md-7 col-md-offset-1 lines">
                 <ul class="list-unstyled text wow fadeInRight animated separator-line2">
-                    <li><big><i>”Vi er 110% tilfredse med eBogholderen”</i></big> <small>Tommy Madsen, Logmar Camera Solution</small></li>
+                    <li><big><i>”Vi er 110% tilfredse med eRevisoren”</i></big> <small>Tommy Madsen, Logmar Camera Solution</small></li>
                     <li style="margin-left: 25px;"><big><i>“Dejlig menneskelig og hjælpsom support”</i></big> <small>Mikkel Preisler, Preisler Group</small></li>
                     <li style="margin-left: 50px;"><big><i>“Den bedste investering som start-up”</i></big> <small>Henrik Thorsen, Solid Skiing</small></li>
                 </ul>

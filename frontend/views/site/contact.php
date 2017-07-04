@@ -5,7 +5,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'eBogholderen - Kontakt Os';
+$this->title = 'eRevisoren - Kontakt Os';
 
 $this->registerJsFile(
   Url::to("@web/frontend/assets/js/ebogholderen.index.js?v=1.4"), [

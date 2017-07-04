@@ -1,20 +1,20 @@
 {
-    "name": "ebogholderen",
-    "description": "eBogholderen.dk Website",
-    "keywords": ["yii2", "framework", "eBogholderen"],
-    "homepage": "http://www.ebogholderen.dk",
+    "name": "erevisoren",
+    "description": "eRevisoren.dk Website",
+    "keywords": ["yii2", "framework", "eRevisoren"],
+    "homepage": "http://www.erevisoren.dk",
     "type": "project",
   	"license": "Proprietary",
       "authors": [
           {
              "name": "David Andersen",
              "email": "mrdavidandersen@gmail.com",
-              "homepage": "http://www.ebogholderen.dk/"
+              "homepage": "http://www.erevisoren.dk/"
           }
       ],
   	"support": {
-  		"issues": "http://www.ebogholderen.dk/",
-  		"source": "http://www.ebogholderen.dk/"
+  		"issues": "http://www.erevisoren.dk/",
+  		"source": "http://www.erevisoren.dk/"
   	},
     "minimum-stability": "dev",
     "require": {

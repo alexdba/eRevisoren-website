@@ -41,7 +41,7 @@ $mainMenuItems = [
    'url'         => "#",
    'linkOptions' => ['class' => 'callmeback-menu-item external', 'onclick' => "fbq('track', 'Lead'); fbq('track', 'InitiateCheckout');"] ],
   ['label'       => Yii::t('app', 'Login'), 
-   'url'         => "http://www.ebogholderen.dk/Auth.php?action=login",
+   'url'         => "http://www.erevisoren.dk/Auth.php?action=login",
    'linkOptions' => ['class' => 'external', 'target' => '_blank'] ],
 ];
 
@@ -146,10 +146,10 @@ $socialMenuItems = [
               <span class="icon-bar"></span>
             </button>
             <a href="<?= Yii::$app->homeUrl; ?>" class="navbar-brand logo">
-              <img src="<?= Url::to("@web/assets/images/logo.png?v=1.4"); ?>" alt="ebogholderen.dk">
+              <img src="<?= Url::to("@web/assets/images/logo.png?v=1.4"); ?>" alt="erevisoren.dk">
             </a>
             <a href="<?= Yii::$app->homeUrl; ?>" class="navbar-brand logo-white">
-              <img src="<?= Url::to("@web/frontend/assets/images/home/logo-white.png?v=1.0"); ?>" alt="ebogholderen.dk">
+              <img src="<?= Url::to("@web/frontend/assets/images/home/logo-white.png?v=1.0"); ?>" alt="erevisoren.dk">
             </a>
           </div>
           <nav class="navbar-collapse bs-navbar-collapse collapse" 

@@ -13,7 +13,7 @@ Modal::begin([
         <p>Tak for din interesse.</p>
         <p>Vi tilstræber at besvare alle henvendelser inden for 24 timer.</p>
         <p>Har du ikke hørt fra os, er du altid velkommen til at følge op på din status, ved at kontakte os direkte på telefon 91 11 11 97</p>
-        <p>Vi glæder os til at snakke med dig,<br/>Team eBogholderen</p>
+        <p>Vi glæder os til at snakke med dig,<br/>Team eRevisoren</p>
     </div>
     <div class="form-group">
         <br/>

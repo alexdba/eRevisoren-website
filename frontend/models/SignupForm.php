@@ -66,7 +66,7 @@ class SignupForm extends Model
     public function sendEmail($email)
     {
 
-    	$message = 'Signup for ebogholderen.dk: ' . "\n" .
+    	$message = 'Signup for erevisoren.dk: ' . "\n" .
     	            'Name: '      . $this->name    . "\n" .
     				'E-mail: '    . $this->email   . "\n";
     				

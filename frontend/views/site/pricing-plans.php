@@ -3,7 +3,7 @@
 use yii\helpers\Url;
 use yii\helpers\Html;
 
-$this->title = 'eBogholderen.dk - Hvilken Pakke er rigtig for mig?';
+$this->title = 'eRevisoren.dk - Hvilken Pakke er rigtig for mig?';
 
 
 $this->registerJsFile(

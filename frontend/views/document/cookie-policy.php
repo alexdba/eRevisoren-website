@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\helpers\Url;
 /* @var $this yii\web\View */
-$this->title = Yii::t('app', 'eBogholderens cookie politik');
+$this->title = Yii::t('app', 'eRevisorens cookie politik');
 $this->params['breadcrumbs'][] = $this->title;
 
 // $this->params["top_banner"] = '<img src="' . Url::to("@web/assets/images/cancellation-policy.jpg", true) . '" class="document-img" />';

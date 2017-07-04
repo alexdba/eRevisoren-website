@@ -6,7 +6,7 @@ use frontend\models\CustomerCases;
 
 $modelCallMeBackForm = new CallMeBackForm();
 
-$this->title = 'eBogholderen.dk';
+$this->title = 'eRevisoren.dk';
 $this->registerJsFile(
   Url::to("@web/frontend/assets/js/home.private.js?v=1.3"), [
     "depends" => "\\frontend\\assets\\AppAsset"

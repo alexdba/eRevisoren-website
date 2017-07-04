@@ -48,7 +48,7 @@ class NewsletterForm extends Model
      */
     public function sendEmail($email)
     {
-        $message = 'Signup for newsletter from form at ebogholderen.dk.';
+        $message = 'Signup for newsletter from form at erevisoren.dk.';
         //add name
         if(!empty($this->name))
             $message .= 'My name is ' . $this->name . '.';
@@ -58,7 +58,7 @@ class NewsletterForm extends Model
             
         return Yii::$app->mailer->compose()
             ->setTo($email)
-            ->setFrom(['webmaster@ebogholderen.dk'=>'eBogholderen'])
+            ->setFrom(['webmaster@erevisoren.dk'=>'eRevisoren'])
             ->setSubject('Signup for newsletter: [' . $this->email . ']')
             ->setTextBody($message)
             ->send();
